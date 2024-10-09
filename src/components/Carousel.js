@@ -46,10 +46,10 @@ const Carousel = (props) => {
   }, [portfolioData]);
 
   // Get the current visible slides
-  const visibleSlides = portfolioData.slice(
-    currentIndex * itemsPerSlide.current,
-    currentIndex * itemsPerSlide.current + itemsPerSlide.current
-  );
+  // const visibleSlides = portfolioData.slice(
+  //   currentIndex * itemsPerSlide.current,
+  //   currentIndex * itemsPerSlide.current + itemsPerSlide.current
+  // );
 
   return (
     <div className="relative w-full overflow-hidden">
