@@ -7,6 +7,8 @@ import Five from "./Five";
 import Six from "./Six";
 import Seven from "./Seven";
 import Eight from "./Eight";
+import Night from "./Night";
+import TenLast from "./TenLast";
 
 const Home = () => {
     return (
@@ -19,6 +21,8 @@ const Home = () => {
             <Six />
             <Seven />
             <Eight />
+            <Night />
+            <TenLast />
         </div>
     );
 }

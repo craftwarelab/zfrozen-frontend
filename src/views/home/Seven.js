@@ -49,7 +49,7 @@ const Seven = () => {
         </div>
       </div>
       <div className="md:px-32">
-        <Carousel portfolioData={portfolioData} setSelectedID={setSelectedID} />
+        <Carousel portfolioData={portfolioData} setSelectedID={setSelectedID} type={'portfolio'}/>
       </div>
       <div className="flex flex-col space-y-2 justify-center items-center my-2">
         {selectedData.length > 0 && (

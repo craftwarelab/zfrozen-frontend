@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Ashan Madhushanka",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kanishka Sandaruwan",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tharindu Nimesh",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dakshitha Dissanayaka",
+      "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tharindu Tharaka",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nipun Madhusanka",
+      "image": "https://randomuser.me/api/portraits/men/6.jpg"
+    }
+  ]
+  
