@@ -58,7 +58,7 @@ const Five = () => {
   return (
     <div className="bg-black px-8 sm:px-14 py-20 text-white">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] ">Our Technologies</p>
+        <p className="text-white font-[600] text-[50px] text-center">Our Technologies</p>
       </div>
       <div className="mt-14 px-5 md:px-32 flex flex-wrap justify-center items-center gap-4">
         {tecType &&

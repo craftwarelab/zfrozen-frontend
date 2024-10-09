@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "projectName": "Corporate Website Redesign",
+      "title": "UI/UX Design",
+      "type": "Design",
+      "description": "A user-centered approach to designing engaging and accessible interfaces for web and mobile applications.",
+      "image": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+    },
+    {
+      "id": 2,
+      "projectName": "E-commerce Platform Development",
+      "title": "Web Development",
+      "type": "Development",
+      "description": "Full-stack web development services including front-end and back-end architecture with modern frameworks.",
+      "image": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+    },
+    {
+      "id": 3,
+      "projectName": "Mobile Banking App Design",
+      "title": "Mobile App Design",
+      "type": "Design",
+      "description": "Designing intuitive and visually appealing mobile applications tailored to user needs and behaviors.",
+      "image": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+    },
+    {
+      "id": 4,
+      "projectName": "Startup Branding and Logo",
+      "title": "Logo Design",
+      "type": "Branding",
+      "description": "Creative and meaningful logo designs that resonate with your brand's identity and values.",
+      "image": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+    }
+  ]
+  

@@ -11,6 +11,9 @@ const One = () => {
               className=" text-black opacity-5 font-extrabold text-[100px] sm:text-[80px] md:text-[130px] lg:text-[140px] tracking-[0.1em] sm:tracking-[1em] text-center select-none"
               style={{ transform: "scaleY(1.5)" }}
             >
+            thi 
+
+            
               HELLO
             </p> */}
             <img

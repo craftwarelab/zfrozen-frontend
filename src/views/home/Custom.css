@@ -29,3 +29,27 @@
     border-top: 20px solid #999;
   }
   
+
+  .carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 1 0 auto;
+    width: 100%;
+  }
+  
+  .gradient-overlay {
+    background: linear-gradient(to top, rgba(20, 20, 20, 0.6), rgba(0, 0, 0, 0));
+  }
+  

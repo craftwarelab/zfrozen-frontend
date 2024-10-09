@@ -38,7 +38,7 @@ const Four = () => {
   return (
     <div className="bg-[#1F2232] px-8 sm:px-14 py-20">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] ">What we do?</p>
+        <p className="text-white font-[600] text-[50px] text-center">What we do?</p>
       </div>
 
       <div className="slider-container md:px-32 mt-5">
