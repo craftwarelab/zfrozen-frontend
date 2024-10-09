@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import weDo from "./weDo.json";
 import Carousel from "../../components/Carousel";
 
@@ -21,20 +21,20 @@ const Four = () => {
       setDesignData(data);
     });
   }, []);
-  const settings = {
-    className: "center",
-    dots: true,
-    // fade: true,
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 2800,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false,
-  };
+  // const settings = {
+  //   className: "center",
+  //   dots: true,
+  //   // fade: true,
+  //   centerMode: true,
+  //   infinite: true,
+  //   centerPadding: "60px",
+  //   slidesToShow: 3,
+  //   speed: 2800,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 2000,
+  //   arrows: false,
+  // };
 
   return (
     <div className="bg-[#1F2232] px-8 sm:px-14 py-20">
