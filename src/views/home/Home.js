@@ -7,7 +7,7 @@ import Five from "./Five";
 import Six from "./Six";
 import Seven from "./Seven";
 import Eight from "./Eight";
-import Night from "./Night";
+// import Night from "./Night";
 import TenLast from "./TenLast";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
             <Six />
             <Seven />
             <Eight />
-            <Night />
+            {/* <Night /> */}
             <TenLast />
         </div>
     );
