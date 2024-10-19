@@ -20,7 +20,7 @@ const Night = () => {
     <div className="bg-white px-8 sm:px-14 py-20">
       <div className="flex justify-center items-center">
         <p className="text-black font-[600] text-[50px] text-center">
-          Client Testimonial
+          Meet our Team
         </p>
       </div>
       <div className="mt-14 px-5 md:px-32">

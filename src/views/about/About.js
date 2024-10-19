@@ -1,10 +1,11 @@
 // src/pages/About.jsx
 import React from 'react';
+import Whoweare from './Whoweare';
 
 const About = () => {
   return (
-    <div>
-      <h1>About Us</h1>
+    <div className="select-none">
+      <Whoweare />
     </div>
   );
 };
