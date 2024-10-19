@@ -17,13 +17,13 @@ const Eight = () => {
     });
   }, []);
   return (
-    <div className="bg-black px-8 sm:px-14 py-20">
+    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">
           Client Testimonial
         </p>
       </div>
-      <div className="flex justify-center flex-col items-center mt-14 px-5 md:px-32">
+      <div className="flex justify-center flex-col items-center mt-14 xl:px-32">
         <p className="text-[28px] font-[400] text-white text-center">
           Testimonials That Speak to
           <br />
@@ -35,7 +35,7 @@ const Eight = () => {
           adipiscing elit. Sed lobortis orci elementum egestas lobortis.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 px-5 md:px-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 xl:px-32">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} index={index} {...testimonial} />
         ))}

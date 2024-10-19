@@ -17,13 +17,13 @@ const Night = () => {
     });
   }, []);
   return (
-    <div className="bg-white px-8 sm:px-14 py-20">
+    <div className="bg-white px-4 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
         <p className="text-black font-[600] text-[50px] text-center">
           Meet our Team
         </p>
       </div>
-      <div className="mt-14 px-5 md:px-32">
+      <div className="mt-14 xl:px-32">
         <div className="flex justify-center items-center bg-[#E0E0E0] p-6 rounded-[10px]">
           <p className="text-center text-[18px] font-[400] ">
             Our team is made up of experienced professionals who are passionate

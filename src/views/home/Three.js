@@ -2,8 +2,8 @@ import React from "react";
 
 const Three = () => {
   return (
-    <div className="h-full px-8 sm:px-14 bg-black mx-auto w-full">
-      <div className="md:px-32">
+    <div className="h-full px-4 mx-auto sm:px-6 lg:px-8 bg-black w-full">
+      <div className="xl:px-32">
         <div className="grid grid-cols-3 h-full">
           <div className="col-span-2 my-20">
             <h1 className="text-[45px] lg:text-[60px] font-[700] text-white text-wrap">
@@ -29,7 +29,7 @@ const Three = () => {
               <img
                 src="/2833b98c20073c9cea2444f06df775a8.png"
                 alt="test"
-                className="object-cover object-center h-[8rem] md:h-[12rem]"
+                className="object-cover object-center h-auto md:h-[12rem]"
               />
             </div>
           </div>

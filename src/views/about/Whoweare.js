@@ -5,13 +5,16 @@ const Whoweare = () => {
   return (
     <div className="h-full">
       <div className="flex flex-col">
-        <div className="h-[40rem] lg:h-[30rem] relative overflow-hidden">
+        <div className="h-[48rem] lg:h-[38rem] relative overflow-hidden">
           <img
             src="/fc1a3c66d4b0d86a0f3fa2ab7bb672f0.png"
             alt="hello"
             className="h-full top-0 right-0 object-cover object-center"
           />
-          <div className="absolute top-0 left-0 w-full h-full px-8 sm:px-14 z-30 mt-12">
+          <div className="absolute top-0 left-0 w-full h-full px-8 sm:px-14 z-30 mt-20">
+            <div className="flex justify-center items-center mb-5">
+              <p className="text-white font-[600] text-[60px] text-center">Who we are?</p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-2 px-auto md:px-32">
               <div className="flex justify-center items-center order-2 md:order-1 relative ">
                 <div className=" bg-white p-4 rounded-[20px] ">

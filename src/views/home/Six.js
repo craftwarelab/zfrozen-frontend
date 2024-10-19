@@ -56,11 +56,11 @@ const Five = () => {
   }, [selected]);
 
   return (
-    <div className="bg-black px-8 sm:px-14 py-20 text-white">
+    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 text-white">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">Our Technologies</p>
       </div>
-      <div className="mt-14 px-5 md:px-32 flex flex-wrap justify-center items-center gap-4">
+      <div className="mt-14 xl:px-32 flex flex-wrap justify-center items-center gap-4">
         {tecType &&
           tecType.map((tec) => (
             <div key={tec}>
@@ -76,7 +76,7 @@ const Five = () => {
           ))}
       </div>
 
-      <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-3 px-5 md:px-32">
+      <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-3 xl:px-32">
         {technologies &&
           technologies.map((technologies) => (
             <div
@@ -93,7 +93,7 @@ const Five = () => {
             </div>
           ))}
       </div>
-      <div className="mt-[4rem] md:px-32">
+      <div className="mt-[4rem] xl:px-32">
         <div className="bg-[#E0E0E0] flex justify-center items-center rounded-[25px]">
           <p className="text-[18px] font-[500] text-center p-5 px-8 text-black">
             Using the right technology for the right problem is our mantra. We
