@@ -21,7 +21,7 @@ const Home = () => {
             <Six />
             <Seven />
             <Eight />
-            <Night />
+            {/* <Night /> */}
             <TenLast />
         </div>
     );
