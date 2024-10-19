@@ -2,12 +2,12 @@ import React from "react";
 
 const Five = () => {
   return (
-    <div className="px-8 sm:px-14 py-20">
+    <div className="px-4 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
         <p className="text-black font-[600] text-[50px] ">Our Process</p>
       </div>
       <div>
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto md:p-[130px] mt-20 md:px-32">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto md:p-[130px] mt-14 xl:px-32">
           <svg
             className="absolute hidden md:block top-0 left-1/2 -translate-x-1/2"
             width="305"

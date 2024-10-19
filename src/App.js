@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./views/home/Home";
 import About from "./views/about/About";
+import Services from "./views/services/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/services" element={<Services />}></Route>
       </Routes>
 
       <Footer />

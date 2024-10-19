@@ -27,15 +27,15 @@ const Two = () => {
             alt="hello"
             className="h-full top-0 right-0 object-cover object-center"
           />
-          <div className="absolute top-0 left-0 w-full h-full px-8 sm:px-14 z-30 mt-12">
-            <div className="px-auto md:px-32">
-              <div className="">
+          <div className="absolute top-0 left-0 w-full h-full px-4 mx-auto sm:px-6 lg:px-8 z-30 mt-12">
+            <div className="px-auto xl:px-32">
+              <div className="flex justify-center items-center sm:justify-start">
                 <button className=" text-[#000000] text-[28px] font-[500] px-8 py-2 rounded-[28px] bg-[#FFD700] cursor-pointer hover:bg-[#ffe240]">
                   About Our Company
                 </button>
               </div>
               <div className="mt-12">
-                <p className="text-[#FFFFFF] text-[18px] font-[500]">
+                <p className="text-[#FFFFFF] text-[18px] font-[500] text-center sm:text-start">
                   &quot;Zfrozen is a dynamic team of graduates from South
                   Eastern University, Sri Lanka, united by a common passion for
                   IT-related projects. Established in October 2022, our journey
@@ -47,7 +47,7 @@ const Two = () => {
                 </p>
               </div>
               <div className="mt-[2.8rem] sm:mt-[1.8rem] md:mt-[2rem] lg:mt-28">
-                <h1 className="text-white text-[40px] lg:text-[50px] font-[700]">
+                <h1 className="text-white text-center sm:text-start text-[40px] lg:text-[50px] font-[700]">
                   Why <span className="text-[#FFD700]">Hire us</span>?
                 </h1>
               </div>
@@ -96,7 +96,7 @@ const Two = () => {
 
           <div className="mt-32 sm:mt-48 md:mx-32">
             <div className="flex justify-center items-center my-10">
-              <p className="text-[40px] font-[600]">
+              <p className="text-[40px] font-[600] text-center">
                 Amazing clients who trust us
               </p>
             </div>

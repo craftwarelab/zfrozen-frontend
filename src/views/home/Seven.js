@@ -27,11 +27,11 @@ const Seven = () => {
     }
   }, [selectedID]);
   return (
-    <div className="bg-[#1F2232] px-8 sm:px-14 py-20">
+    <div className="bg-[#1F2232] px-4 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">Portfolio</p>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center px-5 md:px-32 my-14 space-y-5 md:space-y-0">
+      <div className="flex flex-col md:flex-row justify-between items-center xl:px-32 my-14 space-y-5 md:space-y-0">
         {/* Text Section */}
         <div className="text-center md:text-left">
           <p className="text-white font-[400] text-[24px] md:text-[28px]">
@@ -48,7 +48,7 @@ const Seven = () => {
           </button>
         </div>
       </div>
-      <div className="md:px-32">
+      <div className="xl:px-32">
         <Carousel portfolioData={portfolioData} setSelectedID={setSelectedID} type={'portfolio'}/>
       </div>
       <div className="flex flex-col space-y-2 justify-center items-center my-2">
