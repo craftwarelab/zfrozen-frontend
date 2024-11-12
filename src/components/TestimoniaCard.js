@@ -9,8 +9,9 @@ const TestimonialCard = ({ text, image, name, company, rating, index }) => {
       <p className="text-black text-md mb-6 font-semibold">{text && text}</p>
 
       <div className="flex items-center">
-        <img src={image} alt={name} className="w-10 h-10 rounded-full mr-4" />
-
+        {image && (
+          <img src={image} alt={name} className="w-10 h-10 rounded-full mr-4" />
+        )}
         <div>
           <p className="font-bold text-black">{name && name}</p>
           <p className="text-sm text-gray-500">{company && company}</p>
