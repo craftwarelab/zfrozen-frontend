@@ -11,13 +11,23 @@ const Three = () => {
             </h1>
             <div className="mt-16 w-[12rem] md:w-auto lg:w-[40rem]">
               <p className="text-white text-[18px] flex-wrap">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Step into a realm where every line of code tells a story, and
+                each solution is a testament to our commitment to pushing
+                boundaries. At Zfrozen, we&lsquo;re not just crafting software;
+                we&lsquo;re sculpting the future of technology with a touch of
+                creativity and a dash of brilliance. Join us on this
+                exhilarating journey where professionalism meets passion, and
+                where every project is a canvas for innovation. We&lsquo;re more
+                than just a software company; we&lsquo;re a collective
+                heartbeat, pulsating with purpose. Together, let&lsquo;s explore
+                the uncharted territories of technology, where every challenge
+                is an opportunity, and every success is a celebration.At
+                Zfrozen, it&lsquo;s not just about the lines of code; it&lsquo;s
+                about the stories they create. Welcome to a community where
+                collaboration, innovation, and a genuine connection define our
+                every move. Here, the future is not just imagined – it&lsquo;s
+                crafted. Welcome to Zfrozen – where brilliance meets
+                boundless possibilities!
               </p>
             </div>
             <h1 className="text-[45px] lg:text-[60px] font-[700] text-white text-wrap mt-16">

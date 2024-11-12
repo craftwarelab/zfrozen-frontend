@@ -66,8 +66,8 @@ const Five = () => {
             <div key={tec}>
               <button
                 className={`text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${
-                  selected === tec ? "bg-[#FFD700]" : ""
-                } cursor-pointer hover:bg-[#ffe240]`}
+                  selected === tec ? "bg-[#FFD700] text-black" : ""
+                } cursor-pointer hover:bg-[#ffe240] hover:text-black`}
                 onClick={() => setSelected(tec)}
               >
                 {tec}

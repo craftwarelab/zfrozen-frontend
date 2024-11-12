@@ -100,7 +100,7 @@ const Two = () => {
                 Amazing clients who trust us
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-16 py-6">
+            <div className="flex flex-row justify-center items-center gap-4 sm:gap-16 py-6 overflow-x-auto ">
               {companyIcons.map((item, key) => (
                 <span className="icon" key={key}>
                   {item}
