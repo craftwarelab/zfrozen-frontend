@@ -30,9 +30,9 @@ const Eight = () => {
           <span className="text-[#FFD700]">Our Results</span>
         </p>
         <p className="text-[18px] text-white mt-5 text-center sm:w-1/2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue
-          interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Sed lobortis orci elementum egestas lobortis.
+          See how our services have made a difference. Our clients share their
+          stories of growth, improved online presence, and increased business
+          success. Discover the impact we create, one project at a time.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 xl:px-32">

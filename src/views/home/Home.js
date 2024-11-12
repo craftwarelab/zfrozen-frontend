@@ -12,7 +12,7 @@ import TenLast from "./TenLast";
 
 const Home = () => {
     return (
-        <div className="select-none">
+        <div className="">
             <One />
             <Two />
             <Three />
