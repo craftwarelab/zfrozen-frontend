@@ -2,22 +2,22 @@
     {
       "id": 1,
       "title": "UI/ UX Design",
-      "backgroundImage": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+      "backgroundImage": "https://i.postimg.cc/43jRTb2m/service-ui-ux.webp"
     },
     {
       "id": 2,
       "title": "Web Development",
-      "backgroundImage": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+      "backgroundImage": "https://i.postimg.cc/9MT5XRs1/service-web-development.webp"
     },
     {
       "id": 3,
-      "title": "App Design",
-      "backgroundImage": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+      "title": "App Development",
+      "backgroundImage": "https://i.postimg.cc/x8DQLyLW/service-app-development.webp"
     },
     {
       "id": 4,
-      "title": "Logo Design",
-      "backgroundImage": "https://i.postimg.cc/VLdHBgF4/3cdaf2a5a0ec054eea65e8d507512dda.jpg"
+      "title": "Software Development",
+      "backgroundImage": "https://i.postimg.cc/4N1GhcyS/service-software-development.webp"
     }
   ]
   

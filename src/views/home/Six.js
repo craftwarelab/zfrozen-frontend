@@ -58,16 +58,27 @@ const Five = () => {
   return (
     <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 text-white">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] text-center">Our Technologies</p>
+        <p className="text-white font-[600] text-[50px] text-center">
+          Our Technologies
+        </p>
       </div>
-      <div className="mt-14 xl:px-32 flex flex-wrap justify-center items-center gap-4">
+      <div className="my-[2rem] xl:px-32">
+        <div className="bg-[#E0E0E0] flex justify-center items-center rounded-[25px]">
+          <p className="text-[18px] font-[500] text-center p-5 px-8 text-black">
+            Using the right technology for the right problem is our mantra. We
+            are agile about learning new processes and tools to save time and
+            reduce complexity
+          </p>
+        </div>
+      </div>
+      <div className=" xl:px-32 grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap justify-center items-center gap-4">
         {tecType &&
           tecType.map((tec) => (
-            <div key={tec}>
+            <div key={tec} className="flex justify-center items-center">
               <button
-                className={`text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${
+                className={` text-center text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${
                   selected === tec ? "bg-[#FFD700] text-black" : ""
-                } cursor-pointer hover:bg-[#ffe240] hover:text-black`}
+                } cursor-pointer hover:bg-[#FFD700] hover:text-black`}
                 onClick={() => setSelected(tec)}
               >
                 {tec}
@@ -92,15 +103,6 @@ const Five = () => {
               </span>
             </div>
           ))}
-      </div>
-      <div className="mt-[4rem] xl:px-32">
-        <div className="bg-[#E0E0E0] flex justify-center items-center rounded-[25px]">
-          <p className="text-[18px] font-[500] text-center p-5 px-8 text-black">
-            Using the right technology for the right problem is our mantra. We
-            are agile about learning new processes and tools to save time and
-            reduce complexity
-          </p>
-        </div>
       </div>
     </div>
   );
