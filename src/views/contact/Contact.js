@@ -11,6 +11,7 @@ import {
 
 const Contact = () => {
   return (
+    // contact page
     <div className="px-4 py-20 mx-auto sm:px-6 lg:px-8 xl:px-32 bg-[#1F2232]">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[60px] text-center">
