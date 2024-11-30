@@ -50,7 +50,7 @@ const Navbar = () => {
               Career
             </Link>
             <Link
-              to="/about"
+              to="/contact"
               className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
             >
               Contact
@@ -113,7 +113,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to="/about"
+              to="/contact"
               className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
             >
               Contact
