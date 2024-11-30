@@ -110,25 +110,25 @@ const Contact = () => {
               <h3 className="text-lg font-bold mb-4">Follow us</h3>
               <div className="flex justify-center space-x-6">
                 <a
-                  href="#"
+                  href
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <FaLinkedin className="text-white" />
                 </a>
                 <a
-                  href="#"
+                  href
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <FaInstagram className="text-white" />
                 </a>
                 <a
-                  href="#"
+                  href
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <FaFacebookF className="text-white" />
                 </a>
                 <a
-                  href="#"
+                 href
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <FaTwitter className="text-white" />
