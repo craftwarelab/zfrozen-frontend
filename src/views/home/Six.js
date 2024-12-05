@@ -9,6 +9,7 @@ const tecType = [
   "Mobile",
   "Database",
   "Machine Learning",
+  "CMS",
   "Security",
 ];
 
@@ -41,6 +42,7 @@ const Five = () => {
         Mobile: (tec) => tec.mobile === 1,
         Database: (tec) => tec.database === 1,
         "Machine Learning": (tec) => tec.ml === 1,
+        CMS: (tec) => tec.cms === 1,
         Security: (tec) => tec.security === 1,
       };
       filteredTechnologies = technologyData.filter(filters[selected]);
