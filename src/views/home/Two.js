@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  FaRegClock,
-  FaUsers,
-  FaBriefcase,
+  // FaRegClock,
+  // FaUsers,
+  // FaBriefcase,
   // FaCcVisa,
   // FaCcPaypal,
   // FaCcMastercard,
@@ -62,7 +62,12 @@ const Two = () => {
               <div className="flex flex-row gap-6 justify-between items-center font-[600]">
                 <div className="flex flex-col justify-center items-center gap-2">
                   <span>
-                    <FaRegClock className="text-[28px] font-[700]" />
+                    {/* <FaRegClock className="text-[28px] font-[700]" /> */}
+                    <img
+                      src="/completed-project.png"
+                      alt="test"
+                      className="top-0 right-0 object-cover object-center h-[2rem] md:h-[4rem] lg:h-[3rem]"
+                    />
                   </span>
                   <p className="font-[700]">35+</p>
                   <p className="text-[8px] md:text-[12px] font-[600]">
@@ -72,7 +77,12 @@ const Two = () => {
 
                 <div className="flex flex-col justify-center items-center gap-2">
                   <span>
-                    <FaUsers className="text-[28px] font-[700]" />
+                    {/* <FaUsers className="text-[28px] font-[700]" /> */}
+                    <img
+                      src="/happy-customers.png"
+                      alt="test"
+                      className="top-0 right-0 object-cover object-center h-[2rem] md:h-[4rem] lg:h-[3rem]"
+                    />
                   </span>
                   <p className="font-[700]">25+</p>
                   <p className="text-[8px] md:text-[12px] font-[600]">
@@ -82,7 +92,12 @@ const Two = () => {
 
                 <div className="flex flex-col justify-center items-center gap-2">
                   <span>
-                    <FaBriefcase className="text-[28px] font-[700]" />
+                    {/* <FaBriefcase className="text-[28px] font-[700]" /> */}
+                    <img
+                      src="/years-of-experience.png"
+                      alt="test"
+                      className="top-0 right-0 object-cover object-center h-[2rem] md:h-[4rem] lg:h-[3rem]"
+                    />
                   </span>
                   <p className="font-[700]">2+</p>
                   <p className="text-[8px] md:text-[12px] font-[600]">
