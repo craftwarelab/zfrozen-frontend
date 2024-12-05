@@ -109,7 +109,7 @@ const Two = () => {
           </div>
           {/* </div> */}
 
-          <div className="mt-32 sm:mt-48 md:mx-32">
+          <div className="mt-32 sm:mt-44 md:mx-32">
             <div className="flex justify-center items-center my-10">
               <p className="text-[40px] font-[600] text-center">
                 Amazing clients who trust us
