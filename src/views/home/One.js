@@ -19,16 +19,20 @@ const One = () => {
             <img
               src="/HELLO.png"
               alt="logo"
-              className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[12rem] md:h-[15rem] lg:h-[23.1rem] select-none"
+              className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[12rem] md:h-[15rem] lg:h-[24rem] select-none"
               draggable="false"
             />
-            <div className="absolute mt-5 translate-y-8 flex flex-col items-center gap-1">
-              <button className=" text-[#171717] rounded-[6rem] border-2 border-[#171717] font-[500] text-[20px] w-[6rem]">
-                Hello!
-              </button>
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[75px] font-[800]">
+            <div className="absolute mt-5 translate-y-0 flex flex-col items-center">
+              <img
+                src="/hello_button.png"
+                alt="logo"
+                className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
+                draggable="false"
+              />
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[85px] font-[800]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
-                <br />
+              </p>
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[85px] font-[800]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
@@ -39,6 +43,12 @@ const One = () => {
           <div className="relative pt-8 overflow-hidden">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-32">
               <div className="flex flex-col items-center justify-center text-center md:text-start md:justify-start md:items-start z-40">
+                <img
+                  src="/double-qute.png"
+                  alt="logo"
+                  className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[2rem] md:h-[2rem] lg:h-[2rem] select-none"
+                  draggable="false"
+                />
                 <p className=" max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[20px]">
                   Zfrozen&rsquo;s Exceptional product design ensure our website&rsquo;s
                   success. Highly Recommended
@@ -78,7 +88,7 @@ const One = () => {
                   <img
                     src="/2833b98c20073c9cea2444f06df775a8.png"
                     alt="test"
-                    className="object-cover object-center h-[16rem] md:h-[26rem]"
+                    className="object-cover object-center h-[20rem] md:h-[30rem]"
                   />
                 </div>
                 <img
