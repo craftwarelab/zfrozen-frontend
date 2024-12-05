@@ -4,7 +4,7 @@ const Footer = () => {
     const year = new Date().getFullYear(); 
   return (
     <footer className="bg-white">
-      <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 overflow-hidden">
+      <div className="max-w-auto mx-36 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 overflow-hidden">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <img
@@ -195,8 +195,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center"> 
-          <p className="mt-8 text-xs text-gray-800">© {year} Zfrozen</p>
+        <div className="flex justify-center items-center pt-6"> 
+          <p className="mt-8 text-xs text-gray-800">© {year} Zfrozen (Pvt) Ltd</p>
         </div>
       </div>
     </footer>
