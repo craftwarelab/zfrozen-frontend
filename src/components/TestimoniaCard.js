@@ -1,6 +1,6 @@
 import React from "react";
 
-const TestimonialCard = ({ text, image, name, project, position, company, country, rating, index }) => {
+const TestimonialCard = ({ text, image, name, position, company, country, rating, index }) => {
   return (
     <div
       className={`p-6 h-fit rounded-[15px] flex flex-col justify-between shadow-md 
