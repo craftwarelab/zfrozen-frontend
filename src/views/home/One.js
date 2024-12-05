@@ -19,20 +19,20 @@ const One = () => {
             <img
               src="/HELLO.png"
               alt="logo"
-              className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[12rem] md:h-[15rem] lg:h-[24rem] select-none"
+              className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[12rem] md:h-[15rem] lg:h-[30rem] select-none"
               draggable="false"
             />
-            <div className="absolute mt-5 translate-y-0 flex flex-col items-center">
+            <div className="absolute mt-10 translate-y-0 flex flex-col items-center">
               <img
                 src="/hello_button.png"
                 alt="logo"
                 className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
                 draggable="false"
               />
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[85px] font-[800]">
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[100px] font-[600]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
               </p>
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[85px] font-[800]">
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[100px] font-[600]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
