@@ -11,26 +11,14 @@ const Three = () => {
             </h1>
             <div className="mt-16 w-[12rem] md:w-auto lg:w-[40rem]">
               <p className="text-white text-[18px] flex-wrap">
-                Step into a realm where every line of code tells a story, and
-                each solution is a testament to our commitment to pushing
-                boundaries. At Zfrozen, we&lsquo;re not just crafting software;
-                we&lsquo;re sculpting the future of technology with a touch of
-                creativity and a dash of brilliance. Join us on this
-                exhilarating journey where professionalism meets passion, and
-                where every project is a canvas for innovation. We&lsquo;re more
-                than just a software company; we&lsquo;re a collective
-                heartbeat, pulsating with purpose. Together, let&lsquo;s explore
-                the uncharted territories of technology, where every challenge
-                is an opportunity, and every success is a celebration.At
-                Zfrozen, it&lsquo;s not just about the lines of code; it&lsquo;s
-                about the stories they create. Welcome to a community where
-                collaboration, innovation, and a genuine connection define our
-                every move. Here, the future is not just imagined – it&lsquo;s
-                crafted. Welcome to Zfrozen – where brilliance meets
-                boundless possibilities!
+                Welcome to Zfrozen, where innovation meets creativity.
+                We&lsquo;re passionate about shaping the future of IT with brilliance and dedication.
+                At Zfrozen, every project is a canvas for collaboration and innovation,
+                turning challenges into opportunities and ideas into success.
+                Let&lsquo;s craft the future together!
               </p>
             </div>
-            <h1 className="text-[45px] lg:text-[60px] font-[700] text-white text-wrap mt-16">
+            <h1 className="text-[45px] lg:text-[25px] font-[700] text-white text-wrap mt-16">
               Zfrozen Team
             </h1>
           </div>

@@ -25,9 +25,8 @@ const Eight = () => {
       </div>
       <div className="flex justify-center flex-col items-center mt-14 xl:px-32">
         <p className="text-[28px] font-[400] text-white text-center">
-          Testimonials That Speak to
-          <br />
-          <span className="text-[#FFD700]">Our Results</span>
+          Testimonials That <br/> Speak to
+          <span className="text-[#FFD700]"> Our Results</span>
         </p>
         <p className="text-[18px] text-white mt-5 text-center sm:w-1/2">
           See how our services have made a difference. Our clients share their
@@ -35,7 +34,7 @@ const Eight = () => {
           success. Discover the impact we create, one project at a time.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14 xl:px-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 xl:px-32">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} index={index} {...testimonial} />
         ))}

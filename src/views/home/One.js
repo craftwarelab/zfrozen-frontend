@@ -63,7 +63,7 @@ const One = () => {
                     ))}
                 </span>
                 <h2 className="text-[#171717] font-[700] text-[37px]">
-                  1 Years
+                  2 Years
                 </h2>
                 <p className="text-[#171717] font-[400] text-[20px]">
                   Experince
