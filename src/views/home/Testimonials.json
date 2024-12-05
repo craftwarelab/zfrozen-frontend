@@ -1,24 +1,56 @@
 [
-    {
-      "text": "Collaborating with Zforzen on our Apple Center shop&lsquo;s POS system was a game-changer. Their technical prowess and commitment to excellence delivered outstanding results, enhancing efficiency and customer satisfaction.",
-      "image": "https://i.postimg.cc/SQ73Zh4X/apple-center-logo-white.webp",
-      "name": "Sahan Samarajeewa",
-      "company": "Apple Center",
-      "rating": 5
-    },
-    {
-      "text": "Thrilled with Zforzen&lsquo;s loT Research collaboration! Their expert team showcased unparalleled innovation, ensuring our project&lsquo;s success. Truly a testament to their commitment to excellence.",
-      "image": "",
-      "name": "Navini Tharuka",
-      "company": "Researcher From UK",
-      "rating": 5
-    },
-    {
-      "text": "Zfrozen is a highly recommended company. They completed a superb IoT-based dual management system to meet my requirements. The project was outstanding, and their customer service was excellent.",
-      "image": "",
-      "name": "P.M.G.A. Sandaruwan",
-      "company": "Senior Engineer - MSc in Renewable Energy Engineering (UK)  BSc (Hons)",
-      "rating": 5
-    }
-  ]
-  
+  {
+    "text": "Zfrozen is a highly recommended company. They completed a superb IoT-based dual management system to meet my requirements. The project was outstanding, and their customer service was excellent.",
+    "image": "",
+    "name": "M P G A Sandaruwan",
+    "company": "Hayleys Fentons Ltd",
+    "position": "Senior Enginner",
+    "project": "IoT",
+    "rating": 5
+  },
+  {
+    "text": "The Zfrozen Project Team provided exceptional support for my IoT+AI project. Their expertise, responsiveness, and innovative problem-solving were invaluable, helping to enhance the project's efficiency and functionality. I highly recommend them for their professionalism and commitment to excellence.",
+    "image": "",
+    "name": "Pasindu Haputhanthri",
+    "position": "IT Support Executive",
+    "company": "MAS Capital (PVT) Ltd",
+    "project": "IoT",
+    "rating": 5
+  },
+  {
+    "text": "Collaborating with Zforzen on our Apple Center shop's POS system was a game-changer. Their technical prowess and commitment to excellence delivered outstanding results, enhancing efficiency and customer satisfaction.",
+    "image": "",
+    "name": "Shan Samarajeewa",
+    "position": "CEO",
+    "company": "Apple Center (PVT) Ltd",
+    "project": "POS",
+    "rating": 5
+  },
+  {
+    "text": "Thrilled with Zforzen's loT Research collaboration! Their expert team showcased unparalleled innovation, ensuring our project's success. Truly a testament to their commitment to excellence.",
+    "image": "",
+    "name": "Navini Tharuka",
+    "position": "Researcher",
+    "country": "From UK",
+    "project": "IoT",
+    "rating": 5
+  },
+  {
+    "text": "The innovative solutions and seamless integration provided were impressive. The project was delivered on time with excellent attention to detail. Truly a pleasure to work with such a dedicated and skilled team!",
+    "image": "",
+    "name": "Kasun Tharaka",
+    "position": "Site Support Specialist",
+    "company": "7x Lanka (PVT) Ltd",
+    "project": "IoT",
+    "rating": 5
+  },
+  {
+    "text": "Shoutout to the amazing Zfrozen team for their incredible work on the website and AI integration for my project! Your expertise and dedication brought my vision to life. Truly impressed and grateful!",
+    "image": "",
+    "name": "Prarthana De Weeramanthri",
+    "position": "Business Data Analysis",
+    "company": "CBC Tech Solutions Ltd",
+    "project": "AI",
+    "rating": 5
+  }
+]

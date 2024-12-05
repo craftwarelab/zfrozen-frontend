@@ -57,41 +57,41 @@ const Two = () => {
 
         <div className="h-full px-8 sm:px-14 relative">
           {/* <div className="relative"> */}
-            <div className="absolute top-0 left-0 -translate-y-[3.7rem] w-full h-full flex flex-col items-center md:items-end md:px-32">
-              <div className="p-5 md:p-10 bg-[#FFD700] rounded-[20px]">
-                <div className="flex flex-row gap-6 justify-between items-center font-[600]">
-                  <div className="flex flex-col justify-center items-center gap-2">
-                    <span>
-                      <FaRegClock className="text-[28px] font-[700]" />
-                    </span>
-                    <p className="font-[700]">10+</p>
-                    <p className="text-[8px] md:text-[12px] font-[600]">
-                      Completed Project
-                    </p>
-                  </div>
+          <div className="absolute top-0 left-0 -translate-y-[8.7rem] w-full h-full flex flex-col items-center md:items-end md:px-32">
+            <div className="p-5 md:p-10 bg-[#FFD700] rounded-[20px]">
+              <div className="flex flex-row gap-6 justify-between items-center font-[600]">
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <span>
+                    <FaRegClock className="text-[28px] font-[700]" />
+                  </span>
+                  <p className="font-[700]">35+</p>
+                  <p className="text-[8px] md:text-[12px] font-[600]">
+                    Completed Project
+                  </p>
+                </div>
 
-                  <div className="flex flex-col justify-center items-center gap-2">
-                    <span>
-                      <FaUsers className="text-[28px] font-[700]" />
-                    </span>
-                    <p className="font-[700]">5+</p>
-                    <p className="text-[8px] md:text-[12px] font-[600]">
-                      Happy Customers
-                    </p>
-                  </div>
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <span>
+                    <FaUsers className="text-[28px] font-[700]" />
+                  </span>
+                  <p className="font-[700]">25+</p>
+                  <p className="text-[8px] md:text-[12px] font-[600]">
+                    Happy Customers
+                  </p>
+                </div>
 
-                  <div className="flex flex-col justify-center items-center gap-2">
-                    <span>
-                      <FaBriefcase className="text-[28px] font-[700]" />
-                    </span>
-                    <p className="font-[700]">1+</p>
-                    <p className="text-[8px] md:text-[12px] font-[600]">
-                      Years of Experience
-                    </p>
-                  </div>
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <span>
+                    <FaBriefcase className="text-[28px] font-[700]" />
+                  </span>
+                  <p className="font-[700]">2+</p>
+                  <p className="text-[8px] md:text-[12px] font-[600]">
+                    Years of Experience
+                  </p>
                 </div>
               </div>
             </div>
+          </div>
           {/* </div> */}
 
           <div className="mt-32 sm:mt-48 md:mx-32">
@@ -101,11 +101,23 @@ const Two = () => {
               </p>
             </div>
             <div className="flex flex-row justify-center items-center gap-4 sm:gap-16 py-6 overflow-x-auto ">
-              {companyIcons.map((item, key) => (
+              {/* {companyIcons.map((item, key) => (
                 <span className="icon" key={key}>
                   {item}
                 </span>
-              ))}
+              ))} */}
+              <img
+                src="/evc-logo-white.png"
+                alt="logo"
+                className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[6rem] md:h-[8rem] lg:h-[10rem] select-none"
+                draggable="false"
+              />
+              <img
+                src="/apple-center-logo-white.png"
+                alt="logo"
+                className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[6rem] md:h-[8rem] lg:h-[10rem] select-none"
+                draggable="false"
+              />
             </div>
           </div>
         </div>
