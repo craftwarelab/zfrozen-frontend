@@ -3,21 +3,21 @@ import {
   FaRegClock,
   FaUsers,
   FaBriefcase,
-  FaCcVisa,
-  FaCcPaypal,
-  FaCcMastercard,
-  FaCcJcb,
-  FaCcAmazonPay,
+  // FaCcVisa,
+  // FaCcPaypal,
+  // FaCcMastercard,
+  // FaCcJcb,
+  // FaCcAmazonPay,
 } from "react-icons/fa6";
 
 const Two = () => {
-  const companyIcons = [
-    <FaCcVisa key="visa" className="text-[55px]" />,
-    <FaCcPaypal key="paypal" className="text-[55px]" />,
-    <FaCcMastercard key="mastercard" className="text-[55px]" />,
-    <FaCcJcb key="jcb" className="text-[55px]" />,
-    <FaCcAmazonPay key="amazon" className="text-[55px]" />,
-  ];
+  // const companyIcons = [
+  //   <FaCcVisa key="visa" className="text-[55px]" />,
+  //   <FaCcPaypal key="paypal" className="text-[55px]" />,
+  //   <FaCcMastercard key="mastercard" className="text-[55px]" />,
+  //   <FaCcJcb key="jcb" className="text-[55px]" />,
+  //   <FaCcAmazonPay key="amazon" className="text-[55px]" />,
+  // ];
   return (
     <div className="h-full select-none">
       <div className="grid grid-rows-2 ">
