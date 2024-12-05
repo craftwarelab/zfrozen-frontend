@@ -120,8 +120,7 @@ const Five = () => {
               <hr className="w-[20%] border-2 border-black bg-black h-[5px] rounded-lg" />
             </div>
             <p className="text-black">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page.
+              Delve into in-depth analysis and exploration to identify opportunities and solutions that shape the foundation of your projects.
             </p>
           </div>
 
@@ -151,8 +150,7 @@ const Five = () => {
               <hr className="w-[20%] border-2 border-black bg-black h-[5px] rounded-lg" />
             </div>
             <p className="text-black ">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page.
+              Transform ideas into innovative, user-centric designs, ensuring a seamless and functional experience for every interaction.
             </p>
           </div>
 
@@ -238,8 +236,7 @@ const Five = () => {
               <hr className="w-[20%] border-2 border-black bg-black h-[5px] rounded-lg" />
             </div>
             <p className="text-black">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page.
+              Ensure quality, reliability, and excellence through rigorous testing and validation, ensuring that every product meets the highest standards.
             </p>
           </div>
 
@@ -302,8 +299,7 @@ const Five = () => {
               <hr className="w-[20%] border-2 border-black bg-black h-[5px] rounded-lg" />
             </div>
             <p className="text-black">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page.
+              Bring your vision to life with cutting-edge technology and robust development practices, delivering high-performance solutions.
             </p>
           </div>
         </div>
