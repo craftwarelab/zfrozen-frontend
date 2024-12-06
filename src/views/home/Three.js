@@ -22,20 +22,18 @@ const Three = () => {
               Zfrozen Team
             </h1>
           </div>
-          <div className="bg-[#FFD700] relative ">
-            <div className=" bg-white p-4 rounded-[20px] absolute top-1/2 -translate-y-1/2 -translate-x-[1rem] md:-translate-x-[4rem]">
-              <img
-                src="/2833b98c20073c9cea2444f06df775a8.png"
-                alt="test"
-                className="object-cover object-center h-auto md:h-[12rem]"
-              />
-            </div>
-          </div>
 
+          <img
+            src="/zfrozen-logo-about.png"
+            alt="test"
+            className=" absolute md:h-[15rem] translate-y-[10rem] translate-x-[60rem] z-10"
+          />
+
+          <div className="bg-[#FFD700] md:w-[15rem] relative z-0"></div>
           <img
             src="/texter.png"
             alt="test"
-            className="absolute h-[30rem] translate-y-[2rem] translate-x-[50rem]"
+            className="absolute h-[23rem] translate-y-[0rem] translate-x-[52.5rem]"
           />
         </div>
         {/* <p className="text-white">test</p> */}
