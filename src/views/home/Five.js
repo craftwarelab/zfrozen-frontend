@@ -7,65 +7,12 @@ const Five = () => {
         <p className="text-black font-[600] text-[50px] ">Our Process</p>
       </div>
       <div>
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto md:p-[130px] mt-14 xl:px-32">
-          <svg
-            className="absolute hidden md:block top-0 left-1/2 -translate-x-1/2"
-            width="305"
-            height="95"
-            viewBox="0 0 305 95"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M304 72.908C303.986 75.6694 301.737 77.8969 298.975 77.8832L253.976 77.6612C251.215 77.6476 248.987 75.398 249.001 72.6366C249.014 69.8752 251.264 67.6477 254.025 67.6613L294.025 67.8587L294.222 27.8592C294.236 25.0978 296.485 22.8703 299.247 22.8839C302.008 22.8975 304.236 25.1471 304.222 27.9085L304 72.908ZM9.47894 92.9113C7.80665 95.1087 4.66958 95.5345 2.47211 93.8622C0.274632 92.1899 -0.151113 89.0528 1.52118 86.8553L9.47894 92.9113ZM295.447 76.4013C278.221 59.0039 235.936 24.268 183.444 13.3591C157.308 7.92772 128.692 8.40865 99.2789 19.8247C69.8536 31.2455 39.2838 53.7461 9.47894 92.9113L1.52118 86.8553C32.2163 46.5205 64.196 22.7146 95.6606 10.5022C127.138 -1.71497 157.752 -2.19385 185.478 3.56825C240.709 15.0462 284.675 51.3103 302.553 69.3653L295.447 76.4013Z"
-              fill="#A0A0A0"
-            />
-          </svg>
-          <svg
-            className="absolute hidden md:block right-0 top-1/2 -translate-y-1/2"
-            width="95"
-            height="305"
-            viewBox="0 0 95 305"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21.9753 304.383C19.2139 304.37 16.9864 302.12 17 299.359L17.2221 254.359C17.2357 251.598 19.4853 249.37 22.2467 249.384C25.0081 249.398 27.2356 251.647 27.222 254.409L27.0246 294.408L67.0241 294.605C69.7855 294.619 72.013 296.869 71.9994 299.63C71.9858 302.391 69.7362 304.619 66.9748 304.605L21.9753 304.383ZM1.97205 9.86218C-0.225429 8.18989 -0.651174 5.05282 1.02112 2.85535C2.69341 0.657872 5.83048 0.232127 8.02795 1.90442L1.97205 9.86218ZM18.4819 295.83C35.8794 278.604 70.6153 236.32 81.5242 183.827C86.9556 157.692 86.4746 129.075 75.0586 99.6622C63.6378 70.2368 41.1372 39.6671 1.97205 9.86218L8.02795 1.90442C48.3628 32.5995 72.1687 64.5793 84.3811 96.0439C96.5983 127.521 97.0771 158.135 91.315 185.862C79.837 241.093 43.573 285.059 25.518 302.936L18.4819 295.83Z"
-              fill="#A0A0A0"
-            />
-          </svg>
-          <svg
-            className="absolute hidden md:block bottom-0 left-1/2 -translate-x-1/2"
-            width="305"
-            height="96"
-            viewBox="0 0 305 96"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.00006 22.8586C1.0137 20.0972 3.26327 17.8697 6.02466 17.8833L51.0241 18.1054C53.7855 18.119 56.013 20.3686 55.9994 23.13C55.9858 25.8914 53.7362 28.1189 50.9748 28.1053L10.9753 27.9079L10.7779 67.9074C10.7642 70.6688 8.51464 72.8963 5.75326 72.8827C2.99188 72.869 0.764368 70.6194 0.77801 67.8581L1.00006 22.8586ZM295.521 2.85535C297.193 0.657872 300.33 0.232127 302.528 1.90442C304.725 3.57671 305.151 6.71378 303.479 8.91125L295.521 2.85535ZM9.55295 19.3652C26.7795 36.7627 69.0636 71.4986 121.556 82.4075C147.692 87.8389 176.308 87.3579 205.721 75.9419C235.146 64.5211 265.716 42.0205 295.521 2.85535L303.479 8.91125C272.784 49.2461 240.804 73.052 209.339 85.2644C177.862 97.4816 147.248 97.9604 119.522 92.1983C64.2906 80.7203 20.3247 44.4562 2.44705 26.4013L9.55295 19.3652Z"
-              fill="#A0A0A0"
-            />
-          </svg>
-
-          <svg
-            className="absolute hidden md:block top-1/2 -translate-y-1/2"
-            width="95"
-            height="305"
-            viewBox="0 0 95 305"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M72.908 1.00006C75.6694 1.0137 77.8969 3.26328 77.8832 6.02466L77.6612 51.0241C77.6475 53.7855 75.398 56.013 72.6366 55.9994C69.8752 55.9858 67.6477 53.7362 67.6613 50.9748L67.8587 10.9753L27.8592 10.7779C25.0978 10.7643 22.8703 8.51465 22.8839 5.75327C22.8975 2.99189 25.1471 0.764377 27.9085 0.778018L72.908 1.00006ZM92.9113 295.521C95.1087 297.193 95.5345 300.33 93.8622 302.528C92.1899 304.725 89.0528 305.151 86.8553 303.479L92.9113 295.521ZM76.4013 9.55295C59.0039 26.7795 24.268 69.0636 13.3591 121.556C7.92771 147.692 8.40865 176.308 19.8246 205.721C31.2455 235.146 53.7461 265.716 92.9113 295.521L86.8553 303.479C46.5205 272.784 22.7146 240.804 10.5022 209.339C-1.71497 177.862 -2.19385 147.248 3.56824 119.522C15.0462 64.2906 51.3103 20.3247 69.3652 2.44705L76.4013 9.55295Z"
-              fill="#A0A0A0"
-            />
-          </svg>
+        <div className="flex justify-center items-center md:grid-cols-2 gap-8 mx-auto md:p-[130px] xl:px-32">
 
           {/* Research */}
-          <div className="bg-[#FFD700] p-6 rounded-lg shadow-lg relative overflow-hidden">
+          <div className="bg-[#FFD700] p-6 w-[400px] h-[320px] rounded-[25px] shadow-lg relative overflow-hidden">
             <div className="flex justify-between items-start">
-              <div className="bg-black p-4 rounded-[20px] text-white">
+              <div className="bg-black p-4 rounded-[25px] text-white">
                 {/* Add Research icon here */}
                 <svg
                   width="54"
@@ -112,7 +59,7 @@ const Five = () => {
                   />
                 </svg>
               </div>
-              <div className="text-gray-800 font-bold text-3xl">01</div>
+              <div className="text-gray-500 font-bold text-3xl">01</div>
             </div>
             <h3 className="text-xl font-bold mt-5 text-black">Research</h3>
             <div className="flex items-center justify-between w-[5rem] sm:w-[6rem] my-4">
@@ -125,9 +72,9 @@ const Five = () => {
           </div>
 
           {/* Design */}
-          <div className="bg-[#FFD700] p-6 rounded-lg shadow-lg relative overflow-hidden">
+          <div className="bg-[#FFD700] p-6 w-[400px] h-[320px] rounded-[25px] shadow-lg relative overflow-hidden">
             <div className="flex justify-between items-start">
-              <div className="bg-black p-4 rounded-[20px] text-white">
+              <div className="bg-black p-4 rounded-[25px] text-white">
                 {/* Add Design icon here */}
                 <svg
                   width="53"
@@ -142,7 +89,7 @@ const Five = () => {
                   />
                 </svg>
               </div>
-              <div className="text-gray-800 font-bold text-3xl">02</div>
+              <div className="text-gray-500 font-bold text-3xl">02</div>
             </div>
             <h3 className="text-xl font-bold mt-5 text-black">Design</h3>
             <div className="flex items-center justify-between w-[5rem] sm:w-[6rem] my-4">
@@ -155,9 +102,9 @@ const Five = () => {
           </div>
 
           {/* Test */}
-          <div className="bg-[#FFD700] p-6 rounded-lg shadow-lg relative overflow-hidden">
+          <div className="bg-[#FFD700] p-6 w-[400px] h-[320px] rounded-[25px] shadow-lg relative overflow-hidden">
             <div className="flex justify-between items-start">
-              <div className="bg-black p-4 rounded-[20px] text-white">
+              <div className="bg-black p-4 rounded-[25px] text-white">
                 {/* Add Test icon here */}
                 <svg
                   width="54"
@@ -228,7 +175,7 @@ const Five = () => {
                   />
                 </svg>
               </div>
-              <div className="text-gray-800 font-bold text-3xl">04</div>
+              <div className="text-gray-500 font-bold text-3xl">04</div>
             </div>
             <h3 className="text-xl font-bold mt-5 text-black">Test</h3>
             <div className="flex items-center justify-between w-[5rem] sm:w-[6rem] my-4">
@@ -241,9 +188,9 @@ const Five = () => {
           </div>
 
           {/* Develop */}
-          <div className="bg-[#FFD700] p-6 rounded-lg shadow-lg relative overflow-hidden">
+          <div className="bg-[#FFD700] w-[400px] h-[320px] p-6 rounded-[25px] shadow-lg relative overflow-hidden">
             <div className="flex justify-between items-start">
-              <div className="bg-black p-4 rounded-[20px] text-white">
+              <div className="bg-black p-4 rounded-[25px] text-white">
                 {/* Add Develop icon here */}
                 {/* <i className="fas fa-code"></i> */}
                 <svg
@@ -291,7 +238,7 @@ const Five = () => {
                   />
                 </svg>
               </div>
-              <div className="text-gray-800 font-bold text-3xl">03</div>
+              <div className="text-gray-500 font-bold text-3xl">03</div>
             </div>
             <h3 className="text-xl font-bold mt-5 text-black">Develop</h3>
             <div className="flex items-center justify-between w-[5rem] sm:w-[6rem] my-4">

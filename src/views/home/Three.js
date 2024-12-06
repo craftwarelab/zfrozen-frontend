@@ -26,14 +26,14 @@ const Three = () => {
           <img
             src="/zfrozen-logo-about.png"
             alt="test"
-            className=" absolute md:h-[15rem] translate-y-[10rem] translate-x-[60rem] z-10"
+            className=" absolute md:h-[15rem] translate-y-[10rem] translate-x-[70rem] z-10"
           />
 
-          <div className="bg-[#FFD700] md:w-[15rem] relative z-0"></div>
+          <div className="bg-[#FFD700] md:w-[15rem] translate-x-[10rem] relative z-0"></div>
           <img
             src="/texter.png"
             alt="test"
-            className="absolute h-[23rem] translate-y-[0rem] translate-x-[52.5rem]"
+            className="absolute h-[23rem] translate-y-[0rem] translate-x-[62.5rem]"
           />
         </div>
         {/* <p className="text-white">test</p> */}
