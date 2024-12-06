@@ -39,7 +39,7 @@ const Four = () => {
   return (
     <div className="bg-[#1F2232] px-4 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] text-center">
+        <p className="text-white font-[600] mb-8 text-[50px] text-center">
           What we do?
         </p>
       </div>
