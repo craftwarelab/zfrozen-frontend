@@ -2,7 +2,7 @@ import React from "react";
 
 const Two = () => {
   return (
-    <div className="select-none h-[80rem] translate-y-[28rem] md:translate-y-[8rem] lg:translate-y-[18rem]">
+    <div className="select-none h-[62rem] translate-y-[8rem] md:translate-y-[8rem] lg:-translate-y-[2.5rem]">
       <div className="grid grid-rows-2">
         {/* First Section */}
         <div className="h-[33rem] sm:h-[38rem] lg:h-[30rem] relative overflow-hidden">
