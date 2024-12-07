@@ -2,7 +2,7 @@ import React from "react";
 
 const Two = () => {
   return (
-    <div className="select-none h-[80rem]">
+    <div className="select-none h-[80rem] translate-y-[28rem] md:translate-y-[8rem] lg:translate-y-[18rem]">
       <div className="grid grid-rows-2">
         {/* First Section */}
         <div className="h-[33rem] sm:h-[38rem] lg:h-[30rem] relative overflow-hidden">
@@ -56,7 +56,7 @@ const Two = () => {
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
                   <p className="font-[700] text-[16px] sm:text-[20px]">35+</p>
-                  <p className="text-[10px] sm:text-[12px] font-[600]">
+                  <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Completed Projects
                   </p>
                 </div>
@@ -69,7 +69,7 @@ const Two = () => {
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
                   <p className="font-[700] text-[16px] sm:text-[20px]">25+</p>
-                  <p className="text-[10px] sm:text-[12px] font-[600]">
+                  <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Happy Customers
                   </p>
                 </div>
@@ -82,7 +82,7 @@ const Two = () => {
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
                   <p className="font-[700] text-[16px] sm:text-[20px]">2+</p>
-                  <p className="text-[10px] sm:text-[12px] font-[600]">
+                  <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Years of Experience
                   </p>
                 </div>
@@ -112,6 +112,10 @@ const Two = () => {
               />
             </div>
           </div>
+
+        </div>
+        {/* Second Section */}
+        <div className="h-full px-4 sm:px-14 relative">
 
         </div>
       </div>
