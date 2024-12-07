@@ -3,9 +3,9 @@ import React from "react";
 const One = () => {
   const stars = 5;
   return (
-    <div className="bg-white px-8 sm:px-14 select-none">
+    <div className="bg-white px-8 sm:px-14">
       <div className="grid grid-rows-3 lg:grid-rows-7 max-h-screen pt-5">
-        <div className="h-full row-span-1 lg:row-span-3 overflow-hidden">
+        <div className="h-full row-span-1 lg:row-span-3 ">
           <div className="relative flex justify-center max-h-[200px]">
             {/* <p
               className=" text-black opacity-5 font-extrabold text-[100px] sm:text-[80px] md:text-[130px] lg:text-[140px] tracking-[0.1em] sm:tracking-[1em] text-center select-none"
@@ -19,42 +19,42 @@ const One = () => {
             <img
               src="/HELLO.png"
               alt="logo"
-              className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[12rem] md:h-[15rem] lg:h-[30rem] select-none"
+              className="top-0 right-0 object-fill object-bottom sm:h-[12rem] md:h-[15rem] lg:h-[30rem] select-none"
               draggable="false"
             />
             <div className="absolute mt-10 translate-y-0 flex flex-col items-center">
               <img
                 src="/hello_button.png"
                 alt="logo"
-                className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
+                className="top-0 right-0 object-cover object-center h-[4rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
                 draggable="false"
               />
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[100px] font-[600]">
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[90px] font-[600]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
               </p>
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[100px] font-[600]">
+              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[90px] font-[600]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
           </div>
         </div>
 
-        <div className="row-span-2 lg:row-span-4 overflow-hidden">
-          <div className="relative pt-8 overflow-hidden">
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:px-32">
+        <div className="row-span-2 lg:row-span-5">
+          <div className="relative pt-8 ">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
               <div className="flex flex-col items-center justify-center text-center md:text-start md:justify-start md:items-start z-40">
                 <img
                   src="/double-qute.png"
                   alt="logo"
-                  className="top-0 right-0 object-cover object-center h-[0rem] sm:h-[2rem] md:h-[2rem] lg:h-[2rem] select-none"
+                  className="top-0 right-0 object-cover object-center h-[2rem] sm:h-[2rem] md:h-[2rem] lg:h-[2rem] select-none"
                   draggable="false"
                 />
-                <p className=" max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[20px]">
+                <p className=" max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[20px] ">
                   Zfrozen&rsquo;s Exceptional product design ensure our website&rsquo;s
                   success. Highly Recommended
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center md:justify-end md:items-end z-40">
+              <div className="flex flex-col mt-6 items-center justify-center md:justify-end md:items-end z-40">
                 <span>
                   {Array(stars)
                     .fill(0)
@@ -81,20 +81,20 @@ const One = () => {
               </div>
             </div>
 
-            <div className="mx-auto md:w-2/3 relative mt-44 sm:mt-38 md:mt-4">
+            <div className="mx-auto  relative mt-20 sm:mt-38 md:mt-4">
               {/* <p>test</p> */}
               <div className="flex justify-center z-10 translate-y-16 sm:translate-y-10 lg:translate-y-0">
                 <div className="absolute z-20 top-0 flex justify-center items-center -translate-y-[7rem] md:-translate-y-[10rem]">
                   <img
                     src="/2833b98c20073c9cea2444f06df775a8.png"
                     alt="test"
-                    className="object-cover object-center h-[20rem] md:h-[30rem]"
+                    className="object-cover -mt-6 object-center h-[20rem] md:h-[30rem]"
                   />
                 </div>
                 <img
                   src="/half circle.png"
                   alt="test"
-                  className="top-0 right-0 object-cover object-center h-[14rem] md:h-[18rem] lg:h-full -translate-y-10"
+                  className="top-0 right-0 object-contain mt-6 object-center h-[14rem] md:h-[18rem] lg:h-full -translate-y-10"
                 />
               </div>
             </div>
