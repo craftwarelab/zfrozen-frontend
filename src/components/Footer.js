@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-    const year = new Date().getFullYear(); 
+  const year = new Date().getFullYear();
   return (
     <footer className="bg-white select-none">
       <div className="max-w-auto mx-6 md:mx-0 lg:mx-36 pt-16 pb-8 sm:px-6 lg:px-8 overflow-hidden">
@@ -13,8 +13,7 @@ const Footer = () => {
               alt="logo"
             />
             <p className=" mt-4 w-full text-sm text-gray-600">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at
+              At Zfrozen, we're passionate about IT, technology and innovation.
             </p>
             <div className="flex mt-4 sm:mt-8 space-x-2 sm:space-x-4 text-gray-600">
               <a
@@ -175,8 +174,7 @@ const Footer = () => {
                 <p className="font-[700] text-[24px]">Subscribe Us</p>
                 <div className="mt-4 text-sm text-gray-500 flex flex-col space-y-2">
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable
+                    Stay Updated with the Latest! Subscribe Now for Exclusive Updates and Offers.
                   </p>
                   <input
                     type="email"
@@ -195,7 +193,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center pt-6"> 
+        <div className="flex justify-center items-center pt-6">
           <p className="mt-8 text-xs text-gray-800">© {year} Zfrozen (Pvt) Ltd</p>
         </div>
       </div>
