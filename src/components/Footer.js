@@ -121,27 +121,27 @@ const Footer = () => {
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                   <a className="hover:opacity-75" href>
                     {" "}
-                    Web Design/Development{" "}
+                    IoT{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    App Development{" "}
+                    AI & Machine Learning{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    UI/UX Design{" "}
+                    Mobile App Development{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    HubSpot Integration{" "}
+                    Web Development{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    Email Marketing{" "}
+                    UI/UX{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    Website Migration{" "}
+                    3D Modeling & 3D Printing{" "}
                   </a>
                 </nav>
               </div>
