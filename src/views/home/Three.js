@@ -2,7 +2,7 @@ import React from "react";
 
 const Three = () => {
   return (
-    <div className="h-full px-4 mx-auto sm:px-6 lg:px-8 bg-black w-full">
+    <div className="h-full px-4 mx-auto sm:px-6 lg:px-8 bg-black w-full select-none">
       <div className="xl:px-32">
         <div className="grid grid-cols-3 h-full">
           <div className="col-span-2 my-20">
@@ -27,6 +27,7 @@ const Three = () => {
             src="/zfrozen-logo-about.png"
             alt="test"
             className=" absolute md:h-[15rem] translate-y-[10rem] translate-x-[70rem] z-10"
+            draggable="false"
           />
 
           <div className="bg-[#FFD700] md:w-[15rem] translate-x-[10rem] relative z-0"></div>
@@ -34,6 +35,7 @@ const Three = () => {
             src="/texter.png"
             alt="test"
             className="absolute h-[23rem] translate-y-[0rem] translate-x-[62.5rem]"
+            draggable="false"
           />
         </div>
         {/* <p className="text-white">test</p> */}

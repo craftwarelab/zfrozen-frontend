@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialCard = ({ text, image, name, position, company, country, rating, index }) => {
   return (
     <div
-      className={`p-6 h-fit rounded-[15px] flex flex-col justify-between shadow-md 
+      className={`p-6 h-fit rounded-[15px] flex flex-col justify-between shadow-md select-none
         ${index % 2 === 0 ? "bg-[#FFD700]" : "bg-white"}`}
     >
       <p className="text-black text-md mb-6 font-semibold">{text && text}</p>

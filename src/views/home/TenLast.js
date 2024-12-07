@@ -3,7 +3,7 @@ import React from "react";
 const TenLast = () => {
   return (
     <>
-      <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8">
+      <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
         <div className="xl:px-32">
           <div className="flex flex-col gap-5 rounded-xl justify-center items-center p-12 bg-[#FFD700]">
             <p className="text-black font-[600] text-[42px] text-center">

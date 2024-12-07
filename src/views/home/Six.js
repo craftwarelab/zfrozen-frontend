@@ -3,14 +3,15 @@ import technologyData from "./technologyData.json";
 
 const tecType = [
   "All",
-  "Frontend",
-  "Backend",
-  "Framework",
-  "Mobile",
-  "Database",
-  "Machine Learning",
-  "CMS",
-  "Security",
+  "Web Development",
+  "Mobile Development",
+  "Databases",
+  "AI & Machine Learning",
+  "IoT",
+  "UI/UX",
+  "Graphic Design",
+  "3D",
+  "Desktop Applications",
 ];
 
 const fetchTechnologies = () => {
@@ -20,6 +21,7 @@ const fetchTechnologies = () => {
     }, 2000);
   });
 };
+
 const Five = () => {
   const [technologies, setTechnologies] = useState([]);
   const [selected, setSelected] = useState(tecType[0]);
@@ -36,17 +38,19 @@ const Five = () => {
       filteredTechnologies = technologyData;
     } else {
       const filters = {
-        Frontend: (tec) => tec.frontEnd === 1,
-        Backend: (tec) => tec.backEnd === 1,
-        Framework: (tec) => tec.framework === 1,
-        Mobile: (tec) => tec.mobile === 1,
-        Database: (tec) => tec.database === 1,
-        "Machine Learning": (tec) => tec.ml === 1,
-        CMS: (tec) => tec.cms === 1,
-        Security: (tec) => tec.security === 1,
+        "Web Development": (tec) => tec.webDev === 1,
+        "Mobile Development": (tec) => tec.mobileDev === 1,
+        "Databases": (tec) => tec.database === 1,
+        "AI & Machine Learning": (tec) => tec.aiMl === 1,
+        "IoT": (tec) => tec.iot === 1,
+        "UI/UX": (tec) => tec.uiux === 1,
+        "Graphic Design": (tec) => tec.graphicDesign === 1,
+        "3D": (tec) => tec.threeD === 1,
+        "Desktop Applications": (tec) => tec.desktopApps === 1,
       };
       filteredTechnologies = technologyData.filter(filters[selected]);
     }
+
     // Use Set to avoid duplicates
     const uniqueTechnologies = Array.from(
       new Set(filteredTechnologies.map((tec) => tec.id))
@@ -56,7 +60,7 @@ const Five = () => {
   }, [selected]);
 
   return (
-    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 text-white">
+    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 text-white select-none">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">
           Our Technologies
@@ -76,9 +80,8 @@ const Five = () => {
           tecType.map((tec) => (
             <div key={tec} className="flex justify-center items-center">
               <button
-                className={` text-center text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${
-                  selected === tec ? "bg-[#FFD700] text-black" : ""
-                } cursor-pointer hover:bg-[#FFD700] hover:text-black`}
+                className={` text-center text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${selected === tec ? "bg-[#FFD700] text-black" : ""
+                  } cursor-pointer hover:bg-[#FFD700] hover:text-black`}
                 onClick={() => setSelected(tec)}
               >
                 {tec}
@@ -87,23 +90,19 @@ const Five = () => {
           ))}
       </div>
 
-      <div className="grid grid-cols-3 md:grid-cols-7 gap-4 mt-3 xl:px-32">
+      <div className="grid grid-cols-3 md:grid-cols-7 gap-0 mt-3 xl:px-32">
         {technologies &&
-          technologies.map((technologies) => (
-            <div
-              className="flex justify-center items-center bg-white rounded-md sm:h-[10rem] cursor-pointer"
-              key={technologies.id}
-            >
-              <span className="p-4">
-                <img
-                  src={technologies.icon}
-                  className="w-12 sm:w-20"
-                  alt="icon"
-                />
-              </span>
-            </div>
+          technologies.map((technology) => (
+            <img
+              key={technology.id}
+              src={technology.icon}
+              className="w-auto sm:w-auto x"
+              alt={`${technology.name} icon`}
+              draggable="false"
+            />
           ))}
       </div>
+
     </div>
   );
 };

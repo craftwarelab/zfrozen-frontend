@@ -3,7 +3,7 @@ import React from "react";
 const One = () => {
   const stars = 5;
   return (
-    <div className="bg-white px-8 sm:px-14">
+    <div className="bg-white px-8 sm:px-14 select-none">
       <div className="grid grid-rows-3 lg:grid-rows-7 max-h-screen pt-5">
         <div className="h-full row-span-1 lg:row-span-3 overflow-hidden">
           <div className="relative flex justify-center max-h-[200px]">

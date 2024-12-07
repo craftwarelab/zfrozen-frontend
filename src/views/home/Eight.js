@@ -17,7 +17,7 @@ const Eight = () => {
     });
   }, []);
   return (
-    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8">
+    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">
           Client Testimonial

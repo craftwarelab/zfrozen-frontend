@@ -27,7 +27,7 @@ const Seven = () => {
     }
   }, [selectedID]);
   return (
-    <div className="bg-[#1F2232] px-4 py-20 mx-auto sm:px-6 lg:px-8">
+    <div className="bg-[#1F2232] px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
       <div className="flex justify-center items-center">
         <p className="text-white font-[600] text-[50px] text-center">
           Portfolio
@@ -39,7 +39,7 @@ const Seven = () => {
           <p className="text-white font-[400] text-[24px] md:text-[28px]">
             Let&lsquo;s have a look at Our
             <br />
-            <span className="text-[#FFD700]">Portfolio</span>
+            <span className="text-[#FFD700] select-none">Portfolio</span>
           </p>
         </div>
 
