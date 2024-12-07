@@ -3,15 +3,15 @@ import technologyData from "./technologyData.json";
 
 const tecType = [
   "All",
-  "Web Development",
-  "Mobile Development",
-  "Databases",
-  "AI & Machine Learning",
   "IoT",
-  "UI/UX",
-  "Graphic Design",
-  "3D",
+  "AI & Machine Learning",
+  "Mobile Development",
+  "Web Development",
   "Desktop Applications",
+  "Databases",
+  "Graphic Design",
+  "UI/UX",
+  "3D",
 ];
 
 const fetchTechnologies = () => {
@@ -38,11 +38,11 @@ const Five = () => {
       filteredTechnologies = technologyData;
     } else {
       const filters = {
+        "IoT": (tec) => tec.iot === 1,
         "Web Development": (tec) => tec.webDev === 1,
         "Mobile Development": (tec) => tec.mobileDev === 1,
         "Databases": (tec) => tec.database === 1,
         "AI & Machine Learning": (tec) => tec.aiMl === 1,
-        "IoT": (tec) => tec.iot === 1,
         "UI/UX": (tec) => tec.uiux === 1,
         "Graphic Design": (tec) => tec.graphicDesign === 1,
         "3D": (tec) => tec.threeD === 1,
