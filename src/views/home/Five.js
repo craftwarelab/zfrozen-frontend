@@ -2,7 +2,7 @@ import React from "react";
 
 const Five = () => {
   return (
-    <div className="px-4 py-20 mx-auto sm:px-6 lg:px-8">
+    <div className="px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
       <div className="flex justify-center items-center">
         <p className="text-black font-[600] text-[50px] ">Our Process</p>
       </div>
