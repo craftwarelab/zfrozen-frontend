@@ -5,51 +5,42 @@ const One = () => {
   return (
     <div className="bg-white px-8 sm:px-14">
       <div className="grid grid-rows-3 lg:grid-rows-7 max-h-screen pt-5">
-        <div className="h-full row-span-1 lg:row-span-3 ">
-          <div className="relative flex justify-center max-h-[200px]">
-            {/* <p
-              className=" text-black opacity-5 font-extrabold text-[100px] sm:text-[80px] md:text-[130px] lg:text-[140px] tracking-[0.1em] sm:tracking-[1em] text-center select-none"
-              style={{ transform: "scaleY(1.5)" }}
-            >
-            thi 
-
-            
-              HELLO
-            </p> */}
+        <div className="h-[50rem] row-span-3  lg:row-span-3 ">
+          <div className="relative flex justify-center">
             <img
               src="/HELLO.png"
               alt="logo"
-              className="top-0 right-0 object-fill object-bottom sm:h-[12rem] md:h-[15rem] lg:h-[30rem] select-none"
+              className="top-0 right-0 object-fill mt-3 lg:mt-0 object-bottom h-auto md:h-[15rem] lg:h-[30rem] select-none"
               draggable="false"
             />
-            <div className="absolute mt-10 translate-y-0 flex flex-col items-center">
+            <div className="absolute lg:mt-10 translate-y-0 flex flex-col items-center">
               <img
                 src="/hello_button.png"
                 alt="logo"
-                className="top-0 right-0 object-cover object-center h-[4rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
+                className="top-0 right-0 object-cover object-center h-[2rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
                 draggable="false"
               />
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[90px] font-[600]">
+              <p className="text-center text-[20px] md:text-[60px] lg:text-[90px] font-[600]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
               </p>
-              <p className="text-center text-[45px] sm:text-[50px] md:text-[60px] lg:text-[90px] font-[600]">
+              <p className="text-center text-[20px] md:text-[60px] lg:text-[90px] font-[600]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
           </div>
         </div>
 
-        <div className="row-span-2 lg:row-span-5">
+        <div className="row-span-2 mt-20 lg:row-span-5">
           <div className="relative pt-8 ">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
               <div className="flex flex-col items-center justify-center text-center md:text-start md:justify-start md:items-start z-40">
                 <img
                   src="/double-qute.png"
                   alt="logo"
-                  className="top-0 right-0 object-cover object-center h-[2rem] sm:h-[2rem] md:h-[2rem] lg:h-[2rem] select-none"
+                  className="top-0 right-0 object-cover object-center h-[1rem] sm:h-[2rem] md:h-[2rem] lg:h-[2rem] select-none"
                   draggable="false"
                 />
-                <p className=" max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[20px] ">
+                <p className=" max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[10px] md:text-[15px] lg:text-[20px] ">
                   Zfrozen&rsquo;s Exceptional product design ensure our website&rsquo;s
                   success. Highly Recommended
                 </p>
