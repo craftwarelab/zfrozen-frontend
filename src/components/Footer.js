@@ -92,7 +92,11 @@ const Footer = () => {
             <div className="grid grid-cols-1 gap-8 lg:col-span-3 sm:grid-cols-3">
               <div>
                 <p className="font-[700] text-[24px]">Services</p>
-                <img src="/short-bar.webp" className="w-10 md:w-12 lg:w-14 pt-2 pb-3"/>
+                <img
+                  src="/short-bar.webp"
+                  className="w-10 md:w-12 lg:w-14 pt-2 pb-3"
+                  alt="short-bar"
+                />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                   <a className="hover:opacity-75" href="#">
                     IoT
@@ -122,7 +126,11 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-[700] text-[24px]">Quick Links</p>
-                <img src="/short-bar.webp" className="w-10 md:w-12 lg:w-14 pt-2 pb-3"/>
+                <img
+                  src="/short-bar.webp"
+                  className="w-10 md:w-12 lg:w-14 pt-2 pb-3"
+                  alt="short-bar"
+                />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
                   <a className="hover:opacity-75" href="#">
                     Our Services
@@ -143,7 +151,11 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-[700] text-[24px]">Subscribe Us</p>
-                <img src="/short-bar.webp" className="w-10 md:w-12 lg:w-14 pt-2 pb-3"/>
+                <img
+                  src="/short-bar.webp"
+                  className="w-10 md:w-12 lg:w-14 pt-2 pb-3"
+                  alt="short-bar"
+                />
                 <div className="mt-4 text-sm text-gray-500 flex flex-col space-y-2">
                   <p>
                     Stay Updated with the Latest! Subscribe Now for Exclusive Updates and Offers.
