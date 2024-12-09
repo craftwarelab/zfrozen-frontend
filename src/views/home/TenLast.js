@@ -10,9 +10,7 @@ const TenLast = () => {
               Hey! Let&lsquo;s Talk
             </p>
             <p className="text-center  lg:px-20">
-              Whether you need a MVP or extra bandwidth, every engagement starts
-              with a discovery call.Connect with one of our specialists at a
-              time that&lsquo;s convenient to you.
+              "Ready to turn your ideas into extraordinary products? At ZFROZEN, we specialize in innovative solutions, from AI-driven systems to IoT and enterprise applications. With a commitment to quality and customer satisfaction, we bring your vision to life and empower your business to thrive in the digital age."
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
               <button className="w-full sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2">

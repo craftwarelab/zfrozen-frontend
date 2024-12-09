@@ -12,7 +12,7 @@ const Footer = () => {
               className="h-9 sm:h-12"
               alt="logo"
             />
-            <p className=" mt-4 w-full text-sm text-gray-600">
+            <p className=" mt-4 w-60 text-sm text-gray-600">
               At Zfrozen, we're passionate about IT, technology and innovation.
             </p>
             <div className="flex mt-4 sm:mt-8 space-x-2 sm:space-x-4 text-gray-600">
@@ -134,6 +134,14 @@ const Footer = () => {
                   <a className="hover:opacity-75" href>
                     {" "}
                     Web Development{" "}
+                  </a>
+                  <a className="hover:opacity-75" href>
+                    {" "}
+                    Desktop Applications Development{" "}
+                  </a>
+                  <a className="hover:opacity-75" href>
+                    {" "}
+                    Graphic Design{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}

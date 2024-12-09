@@ -23,7 +23,7 @@ const Two = () => {
               <div className="mt-8 sm:mt-12">
                 <p className="text-[#FFFFFF] text-[14px] sm:text-[18px] font-[500] text-center sm:text-start leading-relaxed">
                   &quot;Zfrozen is a dynamic team of graduates from South
-                  Eastern University, Sri Lanka, united by a common passion for
+                  Eastern University, Sri Lanka, united by a common passion for Innovation &
                   IT-related projects. Established in October 2022, our journey
                   began as a collective vision to excel in the realm of
                   technology. Rooted in our academic foundation, we have evolved
