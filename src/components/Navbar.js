@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-auto sm:mx-6 md:mx-0 lg:mx-36 px-4 sm:px-6 lg:px-4">
+      <div className="max-w-auto sm:mx-6 md:mx-0 lg:mx-26 px-4 sm:px-6 lg:px-4">
         <div className="flex justify-between h-16 ">
           <div className="flex items-center">
             {/* Logo */}
@@ -18,7 +18,7 @@ const Navbar = () => {
               <img
                 src="/79d044f63fdef05fea40770eb0fee0d3.png" // Reference to the logo in the public folder
                 alt="Logo"
-                className="h-14 w-auto" // Adjust height/width to fit your needs
+                className="h-10 md:h-12 lg:h-16 w-auto" // Adjust height/width to fit your needs
               />
             </a>
           </div>
@@ -27,31 +27,31 @@ const Navbar = () => {
             {/* Navbar Links */}
             <Link
               to="/about"
-              className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
+              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               About
             </Link>
             <Link
               to="/services"
-              className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
+              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Our Services
             </Link>
             <Link
               to="/about"
-              className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
+              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Portfolio
             </Link>
             <Link
               to="/about"
-              className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
+              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Career
             </Link>
             <Link
               to="/contact"
-              className="text-[#0E1F51] text-[16px] font-[600] hover:underline"
+              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Contact
             </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
             {/* Get In Touch Button */}
             <a
               href="#getintouch"
-              className="bg-[#FFD700] text-black px-4 py-2 rounded text-[16px] font-[500] hover:bg-[#ffe240] transition"
+              className="bg-[#FFD700] text-black px-4 py-2 rounded text-12px md:text-[14px] lg:text-[16px] font-[500] hover:bg-[#ffe240] transition"
             >
               Get In Touch
             </a>
