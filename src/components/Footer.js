@@ -94,37 +94,29 @@ const Footer = () => {
                 <p className="font-[700] text-[24px]">Services</p>
                 <img src="/short-bar.webp" className="w-10 md:w-12 lg:w-14 pt-2 pb-3"/>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    IoT{" "}
+                  <a className="hover:opacity-75" href="#">
+                    IoT
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    AI & Machine Learning{" "}
+                  <a className="hover:opacity-75" href="#">
+                    AI & Machine Learning
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Mobile App Development{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Mobile App Development
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Web Development{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Web Development
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Desktop Applications Development{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Desktop Applications Development
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Graphic Design{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Graphic Design
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    UI/UX{" "}
+                  <a className="hover:opacity-75" href="#">
+                    UI/UX
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    3D Modeling & 3D Printing{" "}
+                  <a className="hover:opacity-75" href="#">
+                    3D Modeling & 3D Printing
                   </a>
                 </nav>
               </div>
@@ -132,25 +124,20 @@ const Footer = () => {
                 <p className="font-[700] text-[24px]">Quick Links</p>
                 <img src="/short-bar.webp" className="w-10 md:w-12 lg:w-14 pt-2 pb-3"/>
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Our Services{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Our Services
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Portfolio{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Portfolio
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Career{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Career
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    About Us{" "}
+                  <a className="hover:opacity-75" href="#">
+                    About Us
                   </a>
-                  <a className="hover:opacity-75" href>
-                    {" "}
-                    Contact Us{" "}
+                  <a className="hover:opacity-75" href="#">
+                    Contact Us
                   </a>
                 </nav>
               </div>
