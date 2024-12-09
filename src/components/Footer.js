@@ -98,31 +98,32 @@ const Footer = () => {
                   alt="short-bar"
                 />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/iot">
                     IoT
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/ai">
                     AI & Machine Learning
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/mobile-app-development">
                     Mobile App Development
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/web-development">
                     Web Development
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/desktop-apps">
                     Desktop Applications Development
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/graphic-design">
                     Graphic Design
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/ui-ux">
                     UI/UX
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/3d-modeling-printing">
                     3D Modeling & 3D Printing
                   </a>
                 </nav>
+
               </div>
               <div>
                 <p className="font-[700] text-[24px]">Quick Links</p>
@@ -132,22 +133,23 @@ const Footer = () => {
                   alt="short-bar"
                 />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/services">
                     Our Services
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/portfolio">
                     Portfolio
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/career">
                     Career
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/about-us">
                     About Us
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75" href="/contact-us">
                     Contact Us
                   </a>
                 </nav>
+
               </div>
               <div>
                 <p className="font-[700] text-[24px]">Subscribe Us</p>
