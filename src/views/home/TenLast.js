@@ -10,7 +10,7 @@ const TenLast = () => {
               Hey! Let&lsquo;s Talk
             </p>
             <p className="text-center  lg:px-20">
-              "Ready to turn your ideas into extraordinary products? At ZFROZEN, we specialize in innovative solutions, from AI-driven systems to IoT and enterprise applications. With a commitment to quality and customer satisfaction, we bring your vision to life and empower your business to thrive in the digital age."
+              "Ready to turn your ideas into extraordinary products? At ZFROZEN, we specialize in innovative solutions, from AI-driven systems to IoT applications."
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
               <button className="w-full sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2 hover:bg-black hover:text-white">
