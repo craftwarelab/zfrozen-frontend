@@ -24,7 +24,7 @@ function App() {
             </p>
           </div>
           <div className="p-4">
-            <h1 className="text-[45px] lg:text-[25px] font-[700] text-white text-wrap mt-16">
+            <h1 className="text-[25px]  lg:text-[25px] font-[700] text-white text-wrap mt-16">
               Zfrozen Team
             </h1>
           </div>
