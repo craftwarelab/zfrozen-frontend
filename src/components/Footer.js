@@ -146,11 +146,11 @@ const Footer = () => {
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    About us{" "}
+                    About Us{" "}
                   </a>
                   <a className="hover:opacity-75" href>
                     {" "}
-                    Contact us{" "}
+                    Contact Us{" "}
                   </a>
                 </nav>
               </div>
