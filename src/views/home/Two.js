@@ -2,7 +2,7 @@ import React from "react";
 
 const Two = () => {
   return (
-    <div className="select-none h-[62rem] translate-y-[8rem] md:translate-y-[8rem] lg:-translate-y-[2.5rem]">
+    <div className="select-none h-[62rem] sm:h-[80rem] lg:h-[62rem] translate-y-[8rem] md:translate-y-[8rem] lg:-translate-y-[2.5rem]">
       <div className="grid grid-rows-2">
         {/* First Section */}
         <div className="h-[33rem] sm:h-[38rem] lg:h-[30rem] relative overflow-hidden">
@@ -33,7 +33,7 @@ const Two = () => {
                 </p>
               </div>
               {/* Why Hire Us */}
-              <div className="mt-8 sm:mt-16">
+              <div className="mt-7 sm:mt-16">
                 <h1 className="text-white text-center sm:text-start text-[28px] sm:text-[40px] lg:text-[50px] font-[700]">
                   Why <span className="text-[#FFD700]">Hire us</span>?
                 </h1>
@@ -93,7 +93,7 @@ const Two = () => {
           {/* Clients Section */}
           <div className="mt-20 sm:mt-32 md:mx-32">
             <div className="flex justify-center items-center my-8">
-              <p className="text-[24px] sm:text-[40px] font-[600] text-center">
+              <p className="lg:text-[50px] sm:text-[40px] text-[26px] font-[600] text-center">
                 Amazing clients who trust us
               </p>
             </div>

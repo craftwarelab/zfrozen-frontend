@@ -18,7 +18,7 @@ const One = () => {
               <img
                 src="/hello_button.png"
                 alt="logo"
-                className="top-0 right-0 object-cover object-center h-[2.5rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
+                className="top-0 right-0 object-cover object-center h-[2.5rem] sm:h-[3rem] md:h-[4rem] lg:h-[6rem] xl:h-[8rem] select-none"
                 draggable="false"
               />
               <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">
@@ -71,14 +71,14 @@ const One = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="#FFD700"
-                      className="inline-block w-4 md:w-6"
+                      className="inline-block w-4 md:w-6 lg:w-8"
                     >
                       <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                     </svg>
                   ))}
               </span>
-              <h2 className="text-[#171717] font-[700] text-[20px] md:text-[35px]">2 Years</h2>
-              <p className="text-[#171717] font-[400] text-[15px]">Experience</p>
+              <h2 className="text-[#171717] font-[700] text-[18px] md:text-[32px] lg:text-[42px]">2 Years</h2>
+              <p className="text-[#171717] font-[400] text-[14px] md:text-[22px] lg:text-[30px]">Experience</p>
             </div>
             <div className="p-4"></div>
             <div className="p-4"></div>
@@ -95,7 +95,7 @@ const One = () => {
               className="object-cover object-center h-[1.3rem] select-none"
               draggable="false"
             />
-            <p className="text-[#171717] font-[400] text-[10px]">
+            <p className="text-[#171717] font-[400] text-[10px] md:text-[15px] lg:text-[20px]">
               Zfrozen&rsquo;s Exceptional product design ensures our website&rsquo;s
               success. Highly Recommended
             </p>
@@ -118,8 +118,8 @@ const One = () => {
                   </svg>
                 ))}
             </span>
-            <h2 className="text-[#171717] font-[700] text-[18px]">2 Years</h2>
-            <p className="text-[#171717] font-[400] text-[14px]">Experience</p>
+            <h2 className="text-[#171717] font-[700] text-[18px] md:text-[20px] lg:text-[24px]">2 Years</h2>
+            <p className="text-[#171717] font-[400] text-[14px] md:text-[18px] lg:text-[20px]">Experience</p>
           </div>
 
           {/* 2nd Column */}
