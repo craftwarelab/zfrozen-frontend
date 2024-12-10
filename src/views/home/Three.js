@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="h-fit bg-black select-none">
+    <div className="h-fit bg-black select-none md:mt-[20rem] lg:mt-[0rem]">
 
 
       {/* Mobile Layout */}
