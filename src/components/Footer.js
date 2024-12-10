@@ -4,7 +4,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer className="bg-white select-none">
-      <div className="max-w-auto mx-6 md:mx-0 lg:mx-26 pt-16 pb-8 sm:px-6 lg:px-8 overflow-hidden">
+      <div className="max-w-auto mx-6 md:mx-0 xl:px-40 pt-16 pb-8 sm:px-6 lg:px-8 overflow-hidden">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <img
