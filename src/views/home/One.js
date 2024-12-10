@@ -4,7 +4,7 @@ const One = () => {
   const stars = 5;
   return (
     <div className="bg-white px-8 sm:px-14">
-      <div className="grid grid-rows-2 lg:grid-rows-2 lg:h-[65rem] md:h-[29rem] h-[15rem] pt-5">
+      <div className="grid grid-rows-2 lg:grid-rows-2 lg:h-[65rem] md:h-[29rem] h-[20rem] pt-5">
 
         <div className=" row-span-3  lg:row-span-3 ">
           <div className="relative flex justify-center">
@@ -18,20 +18,21 @@ const One = () => {
               <img
                 src="/hello_button.png"
                 alt="logo"
-                className="top-0 right-0 object-cover object-center h-[2rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
+                className="top-0 right-0 object-cover object-center h-[2.5rem] sm:h-[3rem] md:h-[4rem] lg:h-[4rem] select-none"
                 draggable="false"
               />
               <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
               </p>
-              <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">  
+              <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-[7rem] md:pt-[15rem]">
+        {/* Main Div - Hidden on Small Devices */}
+        <div className="hidden md:grid grid-cols-4 gap-4 pt-[7rem] md:pt-[15rem]">
           {/* 1st Column - 1/4 of the main div */}
           <div className="grid grid-rows-2 gap-4 items-center justify-start col-span-1">
             <div className="p-4">
@@ -77,12 +78,60 @@ const One = () => {
                   ))}
               </span>
               <h2 className="text-[#171717] font-[700] text-[20px] md:text-[35px]">2 Years</h2>
-              <p className="text-[#171717] font-[400] text-[15  px]">Experience</p>
+              <p className="text-[#171717] font-[400] text-[15px]">Experience</p>
             </div>
             <div className="p-4"></div>
             <div className="p-4"></div>
           </div>
         </div>
+
+        {/* Stacked Content for Small Devices */}
+        <div className="block md:hidden lg:hidden space-y-4 h-[20rem] pt-[8.8rem]">
+          {/* 1st Column */}
+          <div className="absolute left-8 w-28">
+            <img
+              src="/double-qute.png"
+              alt="logo"
+              className="object-cover object-center h-[1.3rem] select-none"
+              draggable="false"
+            />
+            <p className="text-[#171717] font-[400] text-[10px]">
+              Zfrozen&rsquo;s Exceptional product design ensures our website&rsquo;s
+              success. Highly Recommended
+            </p>
+          </div>
+
+          {/* 3rd Column */}
+          <div className="absolute right-8">
+            <span>
+              {Array(stars)
+                .fill(0)
+                .map((_, index) => (
+                  <svg
+                    key={index}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    className="inline-block w-4"
+                  >
+                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                ))}
+            </span>
+            <h2 className="text-[#171717] font-[700] text-[18px]">2 Years</h2>
+            <p className="text-[#171717] font-[400] text-[14px]">Experience</p>
+          </div>
+
+          {/* 2nd Column */}
+          <div className="flex items-center justify-center h-[20rem]">
+            <img
+              src="/logo-with-shape.webp"
+              alt="test"
+              className="object-cover object-center h-[14rem]"
+            />
+          </div>
+        </div>
+
 
 
 
