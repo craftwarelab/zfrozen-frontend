@@ -101,13 +101,13 @@ const Two = () => {
               <img
                 src="/evc-logo-white.png"
                 alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[10rem] lg:h-[12rem] select-none"
+                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
                 draggable="false"
               />
               <img
                 src="/apple-center-logo-white.png"
                 alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[10rem] lg:h-[12rem] select-none"
+                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
                 draggable="false"
               />
             </div>
