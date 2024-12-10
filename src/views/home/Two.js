@@ -97,17 +97,17 @@ const Two = () => {
                 Amazing clients who trust us
               </p>
             </div>
-            <div className="flex flex-row justify-center items-center gap-4 sm:gap-16 py-6 overflow-x-auto">
+            <div className="flex flex-row justify-center items-center gap-4 md:gap-1 sm:gap-16 py-6 overflow-x-auto">
               <img
                 src="/evc-logo-white.png"
                 alt="logo"
-                className="h-[4rem] sm:h-[6rem] md:h-[8rem] lg:h-[10rem] select-none"
+                className="h-[6rem] sm:h-[8rem] md:h-[10rem] lg:h-[12rem] select-none"
                 draggable="false"
               />
               <img
                 src="/apple-center-logo-white.png"
                 alt="logo"
-                className="h-[4rem] sm:h-[6rem] md:h-[8rem] lg:h-[10rem] select-none"
+                className="h-[6rem] sm:h-[8rem] md:h-[10rem] lg:h-[12rem] select-none"
                 draggable="false"
               />
             </div>
