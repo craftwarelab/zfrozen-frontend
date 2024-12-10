@@ -8,7 +8,7 @@ const Five = () => {
       </div>
       <div>
         {/* Flexbox with responsive grid for mobile and desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mx-auto md:p-[50px] lg:px-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-8 ls:gap-8 lx:gap-8  mx-auto md:p-[50px] lg:px-32">
 
           {/* Research */}
           <div className="bg-[#FFD700] p-6 w-full max-w-[400px] min-h-[320px] h-auto rounded-[25px] shadow-lg relative overflow-hidden">
