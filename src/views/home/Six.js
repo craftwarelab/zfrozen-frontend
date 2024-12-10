@@ -60,13 +60,13 @@ const Five = () => {
   }, [selected]);
 
   return (
-    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 text-white select-none">
+    <div className="bg-black px-4 py-10 md:py-20 lg:py-20 xl:py-20 mx-auto sm:px-6 lg:px-8 text-white select-none">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] text-center">
+        <p className="text-white font-[600] lg:text-[50px] sm:text-[40px] text-[40px] text-center">
           Our Technologies
         </p>
       </div>
-      <div className="my-[2rem] xl:px-32">
+      <div className="my-[1rem] md:lg:my-[2rem] lg:my-[2rem] xl:px-32">
         <div className="bg-[#E0E0E0] flex justify-center items-center rounded-[25px]">
           <p className="text-[18px] font-[500] text-center p-5 px-8 text-black">
             Using the right technology for the right problem is our mantra. We

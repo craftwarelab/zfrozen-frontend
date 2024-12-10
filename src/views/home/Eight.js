@@ -32,13 +32,13 @@ const Eight = () => {
   }, [testimonials]);
 
   return (
-    <div className="bg-black px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
+    <div className="bg-black px-4 py-10 md:py-20 lg:py-20 xl:py-20 mx-auto sm:px-6 lg:px-8 select-none">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] text-center">
+        <p className="text-white font-[600] lg:text-[50px] sm:text-[40px] text-[40px] text-center">
           Client Testimonial
         </p>
       </div>
-      <div className="flex justify-center flex-col items-center mt-14 xl:px-32">
+      <div className="flex justify-center flex-col items-center mt-5 xl:px-32">
         <p className="text-[28px] font-[400] text-white text-center">
           Testimonials That <br /> Speak to
           <span className="text-[#FFD700]"> Our Results</span>
@@ -55,7 +55,7 @@ const Eight = () => {
         ))}
       </div>
       {/* Automatic Carousel for small devices */}
-      <div className="sm:hidden overflow-hidden mt-14 xl:px-32">
+      <div className="sm:hidden overflow-hidden mt-5 xl:px-32">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{

@@ -45,9 +45,9 @@ const Five = () => {
   }, [items.length]);
 
   return (
-    <div className="px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
-      <div className="flex justify-center items-center mb-12">
-        <p className="text-black font-[600] text-[40px] sm:text-[50px]">
+    <div className="px-4 py-10 md:py-20 lg:py-20 xl:py-20 mx-auto sm:px-6 lg:px-8 select-none">
+      <div className="flex justify-center items-center mb-4 md:mb-12 lg:mb-12">
+        <p className="text-black font-[600] lg:text-[50px] sm:text-[40px] text-[40px]">
           Our Process
         </p>
       </div>

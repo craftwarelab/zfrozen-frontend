@@ -27,19 +27,19 @@ const Seven = () => {
     }
   }, [selectedID]);
   return (
-    <div className="bg-[#1F2232] px-4 py-20 mx-auto sm:px-6 lg:px-8 select-none">
+    <div className="bg-[#1F2232] px-4 py-10 md:py-20 lg:py-20 xl:py-20 mx-auto sm:px-6 lg:px-8 select-none">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[50px] text-center">
+        <p className="text-white font-[600] lg:text-[50px] sm:text-[40px] text-[40px] text-center">
           Portfolio
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center xl:px-32 my-14 space-y-5 md:space-y-0">
+      <div className="flex flex-row md:flex-row justify-between items-center xl:px-32 my-5 md:my-14 lg:my-14 space-y-5 md:space-y-0">
         {/* Text Section */}
-        <div className="text-center md:text-left">
-          <p className="text-white font-[400] text-[24px] md:text-[28px]">
+        <div className="md:text-left">
+          <p className="text-white font-[400] text-[20px] md:text-[28px]">
             Let&lsquo;s have a look at Our
             <br />
-            <span className="text-[#FFD700] select-none">Portfolio</span>
+            <span className="text-[#FFD700] select-none md:text-left">Portfolio</span>
           </p>
         </div>
 
@@ -57,10 +57,10 @@ const Seven = () => {
           type={"portfolio"}
         />
       </div>
-      <div className="flex flex-col space-y-2 justify-center items-center my-2">
+      <div className="flex flex-col space-y-2 justify-center items-center">
         {selectedData.length > 0 && (
           <div>
-            <div className="flex items-center justify-center my-2 ">
+            <div className="flex items-center justify-center">
               <p className="text-white text-[32px] font-[500] flex items-center justify-between">
                 {selectedData[0]?.title}
                 <svg
