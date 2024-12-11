@@ -114,7 +114,7 @@ const Contact = () => {
               <h3 className="text-lg font-bold mb-4">Follow us</h3>
               <div className="flex justify-center space-x-6">
                 <a
-                  href
+                  href="https://web.facebook.com/zfrozenofficial.co"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <img
@@ -124,7 +124,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href
+                  href="https://www.instagram.com/zfrozenofficial"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <img
@@ -134,7 +134,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href
+                  href="https://www.linkedin.com/company/zfrozenofficial"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <img
@@ -144,7 +144,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href
+                  href="https://www.tiktok.com/@zfrozenofficial"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <img
@@ -154,7 +154,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href
+                  href="https://www.youtube.com/@zfrozen-3d"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
                 >
                   <img
