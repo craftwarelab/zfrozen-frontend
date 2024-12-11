@@ -3,7 +3,7 @@ import React from "react";
 const One = () => {
   const stars = 5;
   return (
-    <div className="bg-white px-8 sm:px-14">
+    <div className="bg-white px-4 sm:px-14">
       <div className="grid grid-rows-2 lg:grid-rows-2 lg:h-[65rem] md:h-[29rem] h-[20rem] pt-5">
 
         <div className=" row-span-3  lg:row-span-3 ">
@@ -21,10 +21,10 @@ const One = () => {
                 className="top-0 right-0 object-cover object-center h-[2.5rem] sm:h-[3rem] md:h-[4rem] lg:h-[6rem] xl:h-[8rem] select-none"
                 draggable="false"
               />
-              <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">
+              <p className="text-center text-[26px] md:text-[50px] lg:text-[90px] font-[600]">
                 We&rsquo;re <span className="text-[#FFD700]">Zfrozen</span>,{" "}
               </p>
-              <p className="text-center text-[24px] md:text-[50px] lg:text-[90px] font-[600]">
+              <p className="text-center text-[26px] md:text-[50px] lg:text-[90px] font-[600]">
                 Let&rsquo;s talk about your project
               </p>
             </div>
