@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  FaPhoneAlt,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaLinkedin,
-  FaInstagram,
-  FaFacebookF,
-  FaTwitter,
-} from "react-icons/fa";
+
 
 const Contact = () => {
   return (
