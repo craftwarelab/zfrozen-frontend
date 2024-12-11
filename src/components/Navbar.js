@@ -8,17 +8,21 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-auto sm:mx-6 md:mx-0 lg:mx-26 px-4 sm:px-6 xl:px-40">
-        <div className="flex justify-between h-16 ">
+        <div className="flex justify-between h-16">
           <div className="flex items-center">
             {/* Logo */}
             <a href="/" className="text-2xl font-bold text-indigo-600">
               <img
-                src="/79d044f63fdef05fea40770eb0fee0d3.png" // Reference to the logo in the public folder
+                src="/79d044f63fdef05fea40770eb0fee0d3.png"
                 alt="Logo"
-                className="h-10 md:h-12 lg:h-16 w-auto" // Adjust height/width to fit your needs
+                className="h-10 md:h-12 lg:h-16 w-auto"
               />
             </a>
           </div>
@@ -38,31 +42,25 @@ const Navbar = () => {
               Our Services
             </Link>
             <Link
-              to="/about"
+              to="/portfolio"
               className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Portfolio
             </Link>
             <Link
-              to="/about"
+              to="/career"
               className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
             >
               Career
             </Link>
-            <Link
-              to="/contact"
-              className="text-[#0E1F51] text-12px md:text-[14px] lg:text-[16px] font-[600] hover:underline"
-            >
-              Contact
-            </Link>
 
             {/* Get In Touch Button */}
-            <a
-              href="#getintouch"
+            <Link
+              to="/contact"
               className="bg-[#FFD700] text-black px-4 py-2 rounded text-12px md:text-[14px] lg:text-[16px] font-[500] hover:bg-[#ffe240] transition"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -96,35 +94,39 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/about"
-              className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
-            >
-              Services
-            </Link>
-            <Link
-              to="/about"
+              onClick={closeMenu}
               className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
             >
               About
             </Link>
             <Link
-              to="/contact"
+              to="/services"
+              onClick={closeMenu}
               className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
             >
-              Contact
+              Our Services
             </Link>
-            <a
-              href="#getintouch"
-              className="bg-[#FFD700] text-black text-[16px] font-[500] hover:bg-[#ffe240] transition
-              block  text-center px-3 py-2 rounded-md text-base"
+            <Link
+              to="/portfolio"
+              onClick={closeMenu}
+              className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
+            >
+              Portfolio
+            </Link>
+            <Link
+              to="/career"
+              onClick={closeMenu}
+              className="block text-gray-700 hover:text-[#0E1F51] px-3 py-2 rounded-md text-base font-medium"
+            >
+              Career
+            </Link>
+            <Link
+              to="/contact"
+              onClick={closeMenu}
+              className="bg-[#FFD700] text-black text-[16px] font-[500] hover:bg-[#ffe240] transition block text-center px-3 py-2 rounded-md text-base"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
       )}

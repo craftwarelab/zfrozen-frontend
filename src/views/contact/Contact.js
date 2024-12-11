@@ -6,54 +6,54 @@ const Contact = () => {
     // contact page
     <div className="px-4 pt-10 md:py-20 lg:md-20 lx:md-20 mx-auto sm:px-6 lg:px-8 xl:px-32 bg-[#1F2232]">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[30px] md:text-[50px] lg:text-[90px] text-center">
-          " Let&rsquo;s Get In Touch
+        <p className="text-white font-[600] text-[30px] md:text-[50px] lg:text-[50px] text-center">
+          "Let&rsquo;s Get In Touch
           <br /> to talk about{" "}
           <span className="text-[#FFD700]">your project</span>
         </p>
       </div>
-      <div className="py-12">
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-4 ">
-          <div className="md:col-span-2 bg-white rounded-lg p-8">
+      <div className="py-12 px-2 md:px-0 lg:px-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 ">
+          <div className="md:col-span-1 bg-white rounded-lg p-8">
             <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
               <div>
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full p-4 border border-gray-600 rounded-lg"
+                  className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
               <div>
                 <input
                   type="text"
                   placeholder="Phone"
-                  className="w-full p-4 border border-gray-600 rounded-lg"
+                  className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
               <div>
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full p-4 border border-gray-600 rounded-lg"
+                  className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
               <div>
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full p-4 border border-gray-600 rounded-lg"
+                  className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
             </div>
             <div className="mt-4">
               <textarea
-                rows="6"
+                rows="3"
                 placeholder="Message"
-                className="w-full p-4 border border-gray-600 rounded-lg"
+                className="w-full p-2 border border-gray-600 rounded-lg"
               ></textarea>
             </div>
             <div className="mt-4">
-              <button className="w-full p-4 text-black bg-[#FFD700] rounded-lg">
+              <button className="w-full h-12 p-3 text-black bg-[#FFD700] rounded-lg">
                 Send Message
               </button>
             </div>
@@ -104,7 +104,7 @@ const Contact = () => {
             {/* Social Media */}
             <div className="mt-8 text-center">
               <h3 className="text-lg font-bold mb-4">Follow us</h3>
-              <div className="flex justify-center space-x-6">
+              <div className="flex justify-center space-x-3">
                 <a
                   href="https://web.facebook.com/zfrozenofficial.co"
                   className="w-10 h-10 bg-yellow-400 flex items-center justify-center rounded-full hover:bg-yellow-500"
