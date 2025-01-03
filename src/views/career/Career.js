@@ -58,6 +58,11 @@ const Career = () => {
                                         <li key={index}>{item}</li>
                                     ))}
                                 </ul>
+                                <ul className="text-black font-[400] mb-5 list-none pl-0">
+                                    {selectedJob.apply.map((item, index) => (
+                                        <li key={index}>{item}</li>
+                                    ))}
+                                </ul>
                                 <div className="flex sm:justify-left justify-left">
                                     <a
                                         href="mailto:zfrozensolar@gmail.com?subject=Application for Career&body=I am interested in applying for this Solar Technician Trainees position."
