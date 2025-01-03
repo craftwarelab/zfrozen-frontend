@@ -23,7 +23,7 @@ const Career = () => {
         <div className="px-4 pt-10 md:pb-20 mt:pb-15 lg:md-20 lx:md-20 mx-auto sm:px-6 lg:px-8 xl:px-32 bg-[#ffffff]">
             {/* Title changes dynamically */}
             <div className="flex justify-center items-center bg-[#F8F8F8] rounded-lg border-0">
-                <p className="text-black font-[600] text-[60px] p-5">
+                <p className="text-black font-[600] p-5 sm:text-[60px] text-[40px] md:text-[60px] lg:text-[60px] xl:text-[60px]">
                     {selectedJob ? selectedJob.name : "Career"}
                 </p>
             </div>

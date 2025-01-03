@@ -20,7 +20,7 @@ const Services = () => {
   return (
     <div className="px-8 sm:px-14 py-20 bg-[#1F2232]">
       <div className="flex justify-center items-center">
-        <p className="text-white font-[600] text-[60px] ">Our Services</p>
+        <p className="text-white font-[600] p-5 sm:text-[60px] text-[40px] md:text-[60px] lg:text-[60px] xl:text-[60px] ">Our Services</p>
       </div>
       <div className="realative">
         {data ? (
