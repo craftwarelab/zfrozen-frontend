@@ -57,6 +57,14 @@ const Four = () => {
           </p>
         </div>
       </div>
+
+      {/* Display selected data if any */}
+      {selectedData.length > 0 && (
+        <div className="selected-data-display">
+          {/* <h3 className="text-white font-[600]">{selectedData[0].title}</h3> */}
+          {/* You can display more details here, such as description, etc. */}
+        </div>
+      )}
     </div>
   );
 };
