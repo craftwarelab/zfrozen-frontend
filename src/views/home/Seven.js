@@ -61,7 +61,7 @@ const Seven = () => {
         {selectedData.length > 0 && (
           <div>
             <div className="flex items-center justify-center">
-              <p className="text-white text-[32px] font-[500] flex items-center justify-between">
+              <p className="text-white text-[18px] sm:text-[32px] md:text-[32px] lg:text-[32px] xl:text-[32px] font-[500] flex items-center justify-between">
                 {selectedData[0]?.title}
                 <svg
                   className="-rotate-45 p-2 cursor-pointer"
@@ -88,7 +88,7 @@ const Seven = () => {
               </p>
             </div>
             <div>
-              <p className="text-white text-[18px] font-[400] text-center">
+              <p className="text-white text-[18px] sm:text-[18px] md:text-[18px] lg:text-[18px] xl:text-[18px] font-[400] text-center">
                 {selectedData[0]?.description}
               </p>
             </div>
