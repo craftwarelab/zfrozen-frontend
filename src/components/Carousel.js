@@ -93,7 +93,7 @@ const Carousel = (props) => {
                 key={item.id}
                 style={{ flex: `0 0 ${100 / itemsPerSlide.current}%` }} // Responsive width per item
               >
-                <div className="flex flex-col justify-between h-full w-full max-w-[20rem] sm:h-[25rem] bg-[#000000] rounded-[25px] relative overflow-hidden">
+                <div className="flex flex-col justify-between h-full max-w-[30rem] sm:h-[25rem] bg-[#000000] rounded-[25px] relative overflow-hidden">
                   <div className="p-5">
                     <p className="text-white text-[24px] font-[400]">
                       {item.title}
@@ -102,11 +102,11 @@ const Carousel = (props) => {
                   <hr className="w-full h-[0.5rem] opacity-50" />
                   <div className="mt-[3rem] relative flex flex-col items-center justify-center">
                     {/* Background divs */}
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-[30px] w-full max-w-[16rem] h-[16.5rem] bg-[#737373] opacity-45 rounded-[25px] z-10"></div>
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-[15px] w-full max-w-[18rem] h-[16.5rem] bg-[#737373] rounded-[25px] z-20"></div>
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-[30px] w-full max-w-[26rem] h-[16.5rem] bg-[#737373] opacity-45 rounded-[25px] z-10"></div>
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-[15px] w-full max-w-[28rem] h-[16.5rem] bg-[#737373] rounded-[25px] z-20"></div>
                     {/* Foreground div with dynamic background image */}
                     <div
-                      className="relative z-30 w-full max-w-[20rem] h-[16.7rem] bg-cover bg-center rounded-[25px]"
+                      className="relative z-30 w-full max-w-[30rem] h-[16.7rem] bg-cover bg-center rounded-[25px]"
                       style={{
                         backgroundImage: `url(${item.backgroundImage})`,
                       }}
