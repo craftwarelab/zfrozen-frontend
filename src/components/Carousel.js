@@ -11,7 +11,7 @@ const Carousel = (props) => {
       const width = window.innerWidth;
       if (width < 480) {
         itemsPerSlide.current = 1;
-      } else if (width < 768) {
+      } else if (width <= 768) {
         itemsPerSlide.current = 2;
       } else {
         itemsPerSlide.current = 3;
