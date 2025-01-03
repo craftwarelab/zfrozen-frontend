@@ -4,6 +4,27 @@
         "name": "Solar Technician Trainees",
         "description": "Full-time | On-Site | across the Island.",
         "icon": "https://your-website.com/path-to-icon-webdev.svg",
-        "image": "/pngtree-workers-assemble-energy-system-with-solar-panel-for-electricity-png-image_11575152.png"
+        "image": "/pngtree-workers-assemble-energy-system-with-solar-panel-for-electricity-png-image_11575152.png",
+        "roleOverview": "We’re hiring Solar Technician Trainees for full-time on-site roles across the island.",
+        "keyResponsibilities": [
+            "🔧 Installation, maintenance, and troubleshooting of solar systems"
+        ],
+        "qualifications": [
+            "✅ NVQ Level 3 qualification or higher",
+            "✅ A minimum of 1 year of experience in electrical fields",
+            "✅ Candidates under 45 years of age are preferred",
+            "✅ Hands-on installation and troubleshooting skills",
+            "✅ Physical fitness and ability to work at heights",
+            "✅ Knowledge of solar systems, electrical systems, and wiring",
+            "✅ Strong technical expertise and problem-solving abilities",
+            "✅ A valid driving license",
+            "✅ Relevant certifications (preferred)"
+        ],
+        "whyJoinUs": [
+            "🌟 Competitive salary package with growth opportunities",
+            "🌟 Be part of a rapidly growing industry",
+            "🌟 Contribute to a sustainable and environmentally-friendly future",
+            "🌟 Opportunity for professional growth and development"
+        ]
     }
 ]
