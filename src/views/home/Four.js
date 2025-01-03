@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-// import Slider from "react-slick";
 import weDo from "./weDo.json";
-import Carousel from "../../components/Carousel";
+import CarouselService from "../../components/CarouselService"; // Import CarouselService
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import "./Custom.css";
 
 const fetchTechnologies = () => {
@@ -14,27 +11,25 @@ const fetchTechnologies = () => {
     }, 2000);
   });
 };
+
 const Four = () => {
   const [designData, setDesignData] = useState([]);
+  const [selectedData, setSelectedData] = useState([]);
+  const [selectedID, setSelectedID] = useState(1);
+
   useEffect(() => {
     fetchTechnologies().then((data) => {
       setDesignData(data);
     });
   }, []);
-  // const settings = {
-  //   className: "center",
-  //   dots: true,
-  //   // fade: true,
-  //   centerMode: true,
-  //   infinite: true,
-  //   centerPadding: "60px",
-  //   slidesToShow: 3,
-  //   speed: 2800,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  //   arrows: false,
-  // };
+
+  useEffect(() => {
+    if (selectedID) {
+      const filteredData = weDo.filter((item) => item.id === selectedID);
+      console.log(filteredData[0].title); // Log title or other info as needed
+      setSelectedData(filteredData);
+    }
+  }, [selectedID]);
 
   return (
     <div className="bg-[#1F2232] px-4 py-10 md:py-20 lg:py-20 xl:py-20 mx-auto sm:px-6 lg:px-8 select-none">
@@ -45,10 +40,11 @@ const Four = () => {
       </div>
 
       <div className="slider-container xl:px-32">
-        <Carousel
-          portfolioData={designData}
-          setSelectedID={null}
-          type={"wahtwedo"}
+        {/* Use CarouselService and pass setSelectedID to allow selection */}
+        <CarouselService
+          whatWeDoData={designData} // Pass data to CarouselService
+          setSelectedID={setSelectedID} // Pass setSelectedID function
+          type={"whatwedo"} // Corrected the typo here (was "wahtwedo")
         />
       </div>
 
