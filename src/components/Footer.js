@@ -98,6 +98,9 @@ const Footer = () => {
                   alt="short-bar"
                 />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                  <a className="hover:opacity-75" href="/3d-modeling-printing">
+                    Zfrozen Solar
+                  </a>
                   <a className="hover:opacity-75" href="/iot">
                     IoT
                   </a>
