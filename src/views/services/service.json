@@ -7,9 +7,9 @@
   },
   {
       "id": "2",
-      "name": "IoT Solutions",
+      "name": "IoT",
       "description": "Connect your devices for smarter living with our IoT solutions. We offer end-to-end services, from hardware integration to software development, enabling seamless automation and enhanced connectivity for homes and industries alike.",
-      "image": "/Services.png"
+      "image": "/Service-IoT.png"
   },
   {
       "id": "3",
