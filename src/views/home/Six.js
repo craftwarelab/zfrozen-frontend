@@ -75,7 +75,7 @@ const Five = () => {
           </p>
         </div>
       </div>
-      <div className="xl:px-32 grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap justify-center items-center gap-4 hidden sm:block">
+      <div className="xl:px-32 grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap justify-center items-center gap-4 sm:block">
         {tecType &&
           tecType.map((tec) => (
             <div key={tec} className="flex justify-center items-center">
