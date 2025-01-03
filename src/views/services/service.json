@@ -1,30 +1,56 @@
 [
-    {
+  {
       "id": "1",
       "name": "Web Development",
-      "description": "Create responsive, high-performance websites using modern technologies like React, Node.js, Laravel, and Vue.js. We focus on delivering user-friendly interfaces and robust backends.",
-      "icon": "https://your-website.com/path-to-icon-webdev.svg",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-    },
-    {
+      "description": "We specialize in creating responsive and high-performance websites using cutting-edge technologies like React, Node.js, Laravel, and Vue.js. From intuitive user interfaces to powerful backends, we craft tailored solutions to meet your unique business needs.",
+      "image": "/Services.png"
+  },
+  {
       "id": "2",
       "name": "IoT Solutions",
-      "description": "Offering IoT solutions that connect your devices and provide seamless automation for smarter living. We handle the entire process from hardware integration to software development.",
-      "icon": "https://your-website.com/path-to-icon-iot.svg",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
-    },
-    {
-        "id": "service-3",
-        "name": "E-commerce Solutions",
-        "description": "Develop scalable e-commerce platforms with integrated payment gateways, inventory management, and customer analytics to boost your online sales.",
-        "icon": "https://your-website.com/path-to-icon-ecommerce.svg",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
-      },
-      {
-        "id": "service-4",
-        "name": "Cloud Solutions",
-        "description": "Leverage AWS and other cloud platforms to scale your business efficiently. From serverless computing to data storage, we help optimize your cloud infrastructure.",
-        "icon": "https://your-website.com/path-to-icon-cloud.svg",
-        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-      }
-  ]
+      "description": "Connect your devices for smarter living with our IoT solutions. We offer end-to-end services, from hardware integration to software development, enabling seamless automation and enhanced connectivity for homes and industries alike.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "3",
+      "name": "AI & Machine Learning",
+      "description": "Empower your business with AI-driven insights and automation. From predictive analytics to custom ML models, we help you harness the power of AI to make smarter decisions and improve efficiency.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "4",
+      "name": "Mobile App Development",
+      "description": "Bring your ideas to life with our bespoke mobile app development services. We build feature-rich, user-friendly applications for Android and iOS, ensuring exceptional performance and seamless user experiences.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "5",
+      "name": "Desktop Applications Development",
+      "description": "Streamline operations with custom desktop applications tailored to your workflows. Whether for business or personal use, we deliver robust and scalable solutions to meet your needs.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "6",
+      "name": "Graphic Design",
+      "description": "Enhance your brand with visually striking graphic designs. From logos to marketing materials, our creative team ensures your business stands out with unique and professional designs.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "7",
+      "name": "UI/UX Design",
+      "description": "Deliver a memorable user experience with our UI/UX design services. We create intuitive, aesthetically pleasing interfaces that improve engagement and usability for web and mobile applications.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "8",
+      "name": "3D Modeling & 3D Printing",
+      "description": "Transform your ideas into reality with our 3D modeling and 3D printing services. Whether for prototyping, customized products, or artistic designs, we provide precision and quality at every step.",
+      "image": "/Services.png"
+  },
+  {
+      "id": "9",
+      "name": "Zfrozen Solar",
+      "description": "Power your future with our expert solar solutions. From design and installation to maintenance, we provide comprehensive solar energy systems tailored for residential and commercial needs.",
+      "image": "/Services.png"
+  }
+]
