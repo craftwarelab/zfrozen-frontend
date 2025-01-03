@@ -95,7 +95,7 @@ const Career = () => {
                         <div
                             key={index}
                             id={index}
-                            className="flex flex-col md:flex-row justify-between items-center my-14 space-y-5 md:space-y-0"
+                            className="flex flex-col md:flex-row justify-between items-center space-y-5 md:space-y-0 mt-7 mb-14 sm:my-14 md:my-14 lg:my-14 xl:my-14"
                         >
                             <div className="flex flex-col text-center md:text-center p-7 border rounded-xl shadow-lg">
                                 <p className="text-black font-[500] text-[24px] mb-5">{career.name}</p>
