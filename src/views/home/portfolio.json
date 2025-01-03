@@ -8,14 +8,6 @@
       "image": "/IoT_Project.png"
     },
     {
-      "id": 2,
-      "projectName": "",
-      "title": "ZPoS System",
-      "type": "Web Development",
-      "description": "ZPoS System: A comprehensive tool for managing sales, transactions, and stock in retail and service businesses",
-      "image": "/zpos-web-mokup.jpg"
-    },
-    {
       "id": 3,
       "projectName": "",
       "title": "EVC Website",
@@ -30,6 +22,14 @@
       "type": "Mobile App Development",
       "description": "The Attendee Mobile App enhances efficiency in university attendance management through secure QR code verification.",
       "image": "/attendee-mobile-app-mockup.png"
+    },
+    {
+      "id": 2,
+      "projectName": "",
+      "title": "ZPoS System",
+      "type": "Web Development",
+      "description": "ZPoS System: A comprehensive tool for managing sales, transactions, and stock in retail and service businesses",
+      "image": "/zpos-web-mokup.jpg"
     }
   ]
   
