@@ -3,7 +3,7 @@
       "id": "1",
       "name": "Web Development",
       "description": "We specialize in creating responsive and high-performance websites using cutting-edge technologies like React, Node.js, Laravel, and Vue.js. From intuitive user interfaces to powerful backends, we craft tailored solutions to meet your unique business needs.",
-      "image": "/Services.png"
+      "image": "/service-web-development.png"
   },
   {
       "id": "2",
@@ -21,13 +21,13 @@
       "id": "4",
       "name": "Mobile App Development",
       "description": "Bring your ideas to life with our bespoke mobile app development services. We build feature-rich, user-friendly applications for Android and iOS, ensuring exceptional performance and seamless user experiences.",
-      "image": "/Services.png"
+      "image": "/service-app-development.png"
   },
   {
       "id": "5",
       "name": "Desktop Applications Development",
       "description": "Streamline operations with custom desktop applications tailored to your workflows. Whether for business or personal use, we deliver robust and scalable solutions to meet your needs.",
-      "image": "/Services.png"
+      "image": "/service-software-development.png"
   },
   {
       "id": "6",
@@ -39,7 +39,7 @@
       "id": "7",
       "name": "UI/UX Design",
       "description": "Deliver a memorable user experience with our UI/UX design services. We create intuitive, aesthetically pleasing interfaces that improve engagement and usability for web and mobile applications.",
-      "image": "/Services.png"
+      "image": "/service-uiux.png"
   },
   {
       "id": "8",
