@@ -1,23 +1,47 @@
 [
-    {
+  {
       "id": 1,
-      "title": "UI/ UX Design",
-      "backgroundImage": "https://i.postimg.cc/43jRTb2m/service-ui-ux.webp"
-    },
-    {
-      "id": 2,
       "title": "Web Development",
-      "backgroundImage": "https://i.postimg.cc/9MT5XRs1/service-web-development.webp"
-    },
-    {
+      "backgroundImage": "/service-web-development.png"
+  },
+  {
+      "id": 2,
+      "title": "IoT",
+      "backgroundImage": "/Service-IoT.png"
+  },
+  {
       "id": 3,
-      "title": "App Development",
-      "backgroundImage": "https://i.postimg.cc/x8DQLyLW/service-app-development.webp"
-    },
-    {
+      "title": "AI & Machine Learning",
+      "backgroundImage": "/Services.png"
+  },
+  {
       "id": 4,
-      "title": "Software Development",
-      "backgroundImage": "https://i.postimg.cc/4N1GhcyS/service-software-development.webp"
-    }
-  ]
-  
+      "title": "Mobile App Development",
+      "backgroundImage": "/service-app-development.png"
+  },
+  {
+      "id": 5,
+      "title": "Desktop Applications Development",
+      "backgroundImage": "/service-software-development.png"
+  },
+  {
+      "id": 6,
+      "title": "Graphic Design",
+      "backgroundImage": "/Services.png"
+  },
+  {
+      "id": 7,
+      "title": "UI/UX Design",
+      "backgroundImage": "/service-uiux.png"
+  },
+  {
+      "id": 8,
+      "title": "3D Modeling & 3D Printing",
+      "backgroundImage": "/Services.png"
+  },
+  {
+      "id": 9,
+      "title": "Zfrozen Solar",
+      "backgroundImage": "/Services.png"
+  }
+]
