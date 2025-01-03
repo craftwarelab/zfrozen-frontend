@@ -75,12 +75,15 @@ const Five = () => {
           </p>
         </div>
       </div>
-      <div className="xl:px-32 grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap justify-center items-center gap-4 sm:block">
+      <div
+        className="xl:px-32 sm:grid sm:grid-cols-3 md:flex md:flex-wrap justify-center items-center gap-4 hidden"
+      >
         {tecType &&
           tecType.map((tec) => (
             <div key={tec} className="flex justify-center items-center">
               <button
-                className={`text-center text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${selected === tec ? "bg-[#FFD700] text-black" : ""} cursor-pointer hover:bg-[#FFD700] hover:text-black`}
+                className={`text-center text-[#FFFFFF] text-[14px] font-[500] px-8 py-2 rounded-[28px] ${selected === tec ? "bg-[#FFD700] text-black" : ""
+                  } cursor-pointer hover:bg-[#FFD700] hover:text-black`}
                 onClick={() => setSelected(tec)}
               >
                 {tec}
@@ -88,6 +91,7 @@ const Five = () => {
             </div>
           ))}
       </div>
+
 
 
       <div className="grid grid-cols-3 md:grid-cols-7 gap-0 mt-3 xl:px-32">
