@@ -31,7 +31,7 @@ const Career = () => {
             <div className="relative">
                 {selectedJob ? (
                     // Displaying the selected job details
-                    <div className="flex flex-col md:flex-row text-left p-7 border rounded-xl shadow-lg mb-14 sm:my-14 md:my-14 lg:my-14 xl:my-14">
+                    <div className="flex flex-col md:flex-row text-left p-7 border rounded-xl shadow-lg mt-7 mb-14 sm:my-14 md:my-14 lg:my-14 xl:my-14">
                         <div className="flex-grow pr-8">
                             <div className="mt-8">
                                 <h2 className="font-[500] text-[20px] mb-2">Role Overview</h2>
