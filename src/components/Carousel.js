@@ -93,7 +93,7 @@ const Carousel = (props) => {
                 key={item.id}
                 style={{ flex: `0 0 ${100 / itemsPerSlide.current}%` }} // Responsive width per item
               >
-                <div className="flex flex-col justify-between h-full max-w-[30rem] sm:h-[25rem] bg-[#000000] rounded-[25px] relative overflow-hidden">
+                <div className="flex flex-col justify-between h-full max-w-[30rem] bg-[#000000] rounded-[25px] relative overflow-hidden">
                   <div className="p-5">
                     <p className="text-white text-[24px] font-[400]">
                       {item.title}
@@ -106,14 +106,14 @@ const Carousel = (props) => {
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-[15px] w-full max-w-[28rem] h-[16.5rem] bg-[#737373] rounded-[25px] z-20"></div>
                     {/* Foreground div with dynamic background image */}
                     <div
-                      className="relative z-30 w-full max-w-[30rem] h-[16.7rem] bg-cover bg-center rounded-[25px]"
+                      className="relative z-30 w-full max-w-[30rem] h-[18.7rem] bg-cover bg-center rounded-tl-[25px] rounded-tr-[25px] rounded-bl-[25px] rounded-br-[25px]"
                       style={{
                         backgroundImage: `url(${item.backgroundImage})`,
                       }}
                     >
-                      <div className="absolute -bottom-2 -right-2 p-3 bg-[#1F2232] rounded-[20px]">
+                      <div className="absolute -bottom-2 -right-2 p-3 bg-[#1F2232] rounded-tl-[45px] rounded-tr-[0px] rounded-bl-[0px] rounded-br-[25px]">
                         <svg
-                          className="-rotate-45 p-2 cursor-pointer"
+                          className="-rotate-45 p-0 cursor-pointer"
                           width="64"
                           height="64"
                           viewBox="0 0 64 64"
