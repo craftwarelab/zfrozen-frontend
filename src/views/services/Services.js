@@ -28,9 +28,10 @@ const Services = () => {
             <>
               <div
                 id={index}
-                className="flex flex-col md:flex-row justify-between items-center px-5 md:px-32 my-14 space-y-5 md:space-y-0"
+                className="flex flex-col md:flex-row justify-between items-center md:px-32 my-14 space-y-5 md:space-y-0"
               >
-                <div className="flex flex-col text-center md:text-left sm:pr-10 w-3/4">
+
+                <div className="flex flex-col text-center md:text-left sm:pr-10 w-full">
                   <p className="text-white font-[500] text-[24px] md:text-[28px] mb-5">
                     {service.name}
                   </p>
@@ -51,6 +52,7 @@ const Services = () => {
                   />
                 </div>
               </div>
+              <hr className="px-5 h-[1px] bg-[#434343] border-none" />
             </>
           ))
         ) : (
