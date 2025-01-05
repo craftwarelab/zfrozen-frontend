@@ -27,7 +27,7 @@
   {
       "id": 6,
       "title": "Graphic Design",
-      "backgroundImage": "/Services.png"
+      "backgroundImage": "/GraphicDesignServices.png"
   },
   {
       "id": 7,
@@ -37,7 +37,7 @@
   {
       "id": 8,
       "title": "3D Modeling & 3D Printing",
-      "backgroundImage": "/Services.png"
+      "backgroundImage": "/3dprintingService.png"
   },
   {
       "id": 9,

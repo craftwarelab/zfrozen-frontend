@@ -33,7 +33,7 @@
       "id": "6",
       "name": "Graphic Design",
       "description": "Enhance your brand with visually striking graphic designs. From logos to marketing materials, our creative team ensures your business stands out with unique and professional designs.",
-      "image": "/Services.png"
+      "image": "/GraphicDesignServices.png"
   },
   {
       "id": "7",
@@ -45,7 +45,7 @@
       "id": "8",
       "name": "3D Modeling & 3D Printing",
       "description": "Transform your ideas into reality with our 3D modeling and 3D printing services. Whether for prototyping, customized products, or artistic designs, we provide precision and quality at every step.",
-      "image": "/Services.png"
+      "image": "/3dprintingService.png"
   },
   {
       "id": "9",
