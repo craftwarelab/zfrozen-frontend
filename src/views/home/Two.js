@@ -1,6 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import CarouselClientLogos from "../../components/CarouselClientLogos"; // Import the new component
 
 const Two = () => {
+  // State to track if mobile screen size
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust breakpoint as needed
+    };
+    handleResize(); // Initial check on mount
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Portfolio data for Carousel (the logos)
+  const logos = [
+    { id: 1, image: "/evc-logo-white.png", name: "EVC" },
+    { id: 2, image: "/apple-center-logo-white.png", name: "Apple Center" },
+    { id: 3, image: "/lankaseafood.png", name: "Lanka Seafood" },
+    { id: 4, image: "/dgt.png", name: "DGT" },
+  ];
+
   return (
     <div className="select-none h-[62rem] sm:h-[80rem] lg:h-[62rem] translate-y-[8rem] md:translate-y-[8rem] lg:-translate-y-[2.5rem]">
       <div className="grid grid-rows-2">
@@ -91,44 +112,45 @@ const Two = () => {
           </div>
 
           {/* Clients Section */}
-          <div className="mt-20 sm:mt-32 md:mx-32">
+          <div className="mt-20 sm:mt-32">
             <div className="flex justify-center items-center my-8">
               <p className="lg:text-[50px] sm:text-[40px] text-[26px] font-[600] text-center">
                 Amazing clients who trust us
               </p>
             </div>
-            <div className="flex flex-row justify-center items-center gap-4 md:gap-1 sm:gap-16 py-6 overflow-x-auto">
-              <img
-                src="/evc-logo-white.png"
-                alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
-                draggable="false"
-              />
-              <img
-                src="/apple-center-logo-white.png"
-                alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
-                draggable="false"
-              />
-              <img
-                src="/lankaseafood.png"
-                alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
-                draggable="false"
-              />
-              <img
-                src="/dgt.png"
-                alt="logo"
-                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
-                draggable="false"
-              />
-            </div>
+
+            {/* Conditional rendering based on screen size */}
+            {isMobile ? (
+              <CarouselClientLogos logosData={logos} />
+            ) : (
+              <div className="flex flex-row justify-center items-center gap-4 md:gap-1 sm:gap-16 py-6 overflow-x-auto">
+                <img
+                  src="/evc-logo-white.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
+                  src="/apple-center-logo-white.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
+                  src="/lankaseafood.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
+                  src="/dgt.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+              </div>
+            )}
           </div>
-
-        </div>
-        {/* Second Section */}
-        <div className="h-full px-4 sm:px-14 relative">
-
         </div>
       </div>
     </div>
