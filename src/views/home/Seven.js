@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import portfolio from "./portfolio.json";
 import Carousel from "../../components/Carousel";
+import { Link } from "react-router-dom";
+
 
 const fetchTechnologies = () => {
   return new Promise((resolve) => {
@@ -46,7 +48,7 @@ const Seven = () => {
         {/* Button Section */}
         <div>
           <button className="btn btn-primary text-black py-2 px-6 bg-[#FFD700] rounded-[25px] hover:bg-[#ffe240]">
-            See All
+            <Link to="/portfolio" className="text-black">See All</Link>
           </button>
         </div>
       </div>
