@@ -80,7 +80,7 @@ const Whoweare = () => {
                     alt="test"
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
-                  <p className="font-[700] text-[16px] sm:text-[20px]">25+</p>
+                  <p className="font-[700] text-[16px] sm:text-[20px]">30+</p>
                   <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Happy Customers
                   </p>
