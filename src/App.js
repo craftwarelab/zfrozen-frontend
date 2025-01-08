@@ -6,7 +6,8 @@ import Home from "./views/home/Home";
 import About from "./views/about/About";
 import Contact from "./views/contact/Contact";
 import Services from "./views/services/Services";
-import Career from "./views/career/Career"
+import Career from "./views/career/Career";
+import Portfolio from "./views/portfolio/Portfolio";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/services" element={<Services />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/career" element={<Career />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route> 
       </Routes>
 
       <Footer />
