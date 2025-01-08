@@ -77,31 +77,31 @@ const Footer = () => {
                   alt="short-bar"
                 />
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="/3d-modeling-printing">
+                  <a className="hover:opacity-75" href="/services">
                     Zfrozen Solar
                   </a>
-                  <a className="hover:opacity-75" href="/iot">
+                  <a className="hover:opacity-75" href="/services">
                     IoT
                   </a>
-                  <a className="hover:opacity-75" href="/ai">
+                  <a className="hover:opacity-75" href="/services">
                     AI & Machine Learning
                   </a>
-                  <a className="hover:opacity-75" href="/mobile-app-development">
+                  <a className="hover:opacity-75" href="/services">
                     Mobile App Development
                   </a>
-                  <a className="hover:opacity-75" href="/web-development">
+                  <a className="hover:opacity-75" href="/services">
                     Web Development
                   </a>
-                  <a className="hover:opacity-75" href="/desktop-apps">
+                  <a className="hover:opacity-75" href="/services">
                     Desktop Applications Development
                   </a>
-                  <a className="hover:opacity-75" href="/graphic-design">
+                  <a className="hover:opacity-75" href="/services">
                     Graphic Design
                   </a>
-                  <a className="hover:opacity-75" href="/ui-ux">
+                  <a className="hover:opacity-75" href="/services">
                     UI/UX
                   </a>
-                  <a className="hover:opacity-75" href="/3d-modeling-printing">
+                  <a className="hover:opacity-75" href="/services">
                     3D Modeling & 3D Printing
                   </a>
                 </nav>
