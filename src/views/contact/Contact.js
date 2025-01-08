@@ -7,8 +7,24 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
 
   const handleSubmit = () => {
+    // Check if all fields are filled
+    if (!name || !phone || !email || !subject || !message) {
+      setError('Please fill in all fields!');
+      return;
+    }
+
+    // Email validation
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!emailPattern.test(email)) {
+      setError('Please enter a valid email!');
+      return;
+    }
+
+    setError(''); // Clear any previous error message
+
     const waMessage = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
     const waUrl = `https://wa.me/94771173022?text=${encodeURIComponent(waMessage)}`;
     window.open(waUrl, '_blank');
@@ -81,6 +97,7 @@ const Contact = () => {
                 className="w-full p-2 border border-gray-600 rounded-lg"
               ></textarea>
             </div>
+            {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
             <div className="mt-4">
               <button
                 onClick={handleSubmit}
