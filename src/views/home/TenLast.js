@@ -18,7 +18,7 @@ const TenLast = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <button className="w-full sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2 hover:bg-black hover:text-white">
+                <button className="w-[180px] sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2 hover:bg-black hover:text-white">
                   Send us a message
                 </button>
               </a>
@@ -27,7 +27,7 @@ const TenLast = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <button className="w-full sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2 hover:bg-black hover:text-white">
+                <button className="w-[180px] sm:w-[180px] h-[50px] text-black bg-white rounded-xl p-2 hover:bg-black hover:text-white">
                   Schedule a call
                 </button>
               </a>
