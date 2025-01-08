@@ -1,7 +1,26 @@
-import React from 'react';
-
+import React, { useState } from 'react';
 
 const Contact = () => {
+  // State for the form fields
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = () => {
+    const waMessage = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
+    const waUrl = `https://wa.me/94771173022?text=${encodeURIComponent(waMessage)}`;
+    window.open(waUrl, '_blank');
+
+    // Clear the form fields after submission
+    setName('');
+    setPhone('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+  };
+
   return (
     // contact page
     <div className="px-4 pt-10 md:py-20 lg:md-20 lx:md-20 mx-auto sm:px-6 lg:px-8 xl:px-32 bg-[#1F2232]">
@@ -20,6 +39,8 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
@@ -27,6 +48,8 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
@@ -34,6 +57,8 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
@@ -41,6 +66,8 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
                   className="w-full p-2 border border-gray-600 rounded-lg"
                 />
               </div>
@@ -49,11 +76,16 @@ const Contact = () => {
               <textarea
                 rows="3"
                 placeholder="Message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="w-full p-2 border border-gray-600 rounded-lg"
               ></textarea>
             </div>
             <div className="mt-4">
-              <button className="w-full h-12 p-3 text-black bg-[#FFD700] rounded-lg">
+              <button
+                onClick={handleSubmit}
+                className="w-full h-12 p-3 text-black bg-[#FFD700] rounded-lg"
+              >
                 Send Message
               </button>
             </div>
@@ -69,7 +101,9 @@ const Contact = () => {
                 />
                 <div>
                   <h3 className="text-lg font-bold">Call Anytime</h3>
-                  <p className="text-gray-600">+94 77 117 30 22</p>
+                  <a href="https://wa.me/94771173022" className="text-gray-600">
+                    +94 77 117 30 22
+                  </a>
                 </div>
               </div>
 
@@ -82,7 +116,9 @@ const Contact = () => {
                 />
                 <div>
                   <h3 className="text-lg font-bold">Send Email</h3>
-                  <p className="text-gray-600">zfrozen.dev@gmail.com</p>
+                  <a href="mailto:zfrozen.dev@gmail.com" className="text-gray-600">
+                    zfrozen.dev@gmail.com
+                  </a>
                 </div>
               </div>
 
