@@ -110,6 +110,13 @@ const Two = () => {
                 className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
                 draggable="false"
               />
+
+              <img
+                src="/lankaseafood.png"
+                alt="logo"
+                className="h-[6rem] sm:h-[8rem] md:h-[9rem] lg:h-[12rem] select-none"
+                draggable="false"
+              />
             </div>
           </div>
 
