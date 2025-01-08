@@ -33,7 +33,7 @@ const Whoweare = () => {
                 </div>
                 <div className="mt-6 md:mt-6 lg:mt-12 xl:mt-12">
                   <p className="text-[#FFFFFF] text-[14px] md:text-[18px] lg:text-[18px] md:font-[500]">
-                    &quot;Zfrozen is a dynamic team of graduates from South
+                    &quot;Zfrozen (PVT) Ltd is a dynamic team of graduates from South
                     Eastern University, Sri Lanka, united by a common passion
                     for IT-related projects. Established in October 2022, our
                     journey began as a collective vision to excel in the realm
