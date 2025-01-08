@@ -16,9 +16,9 @@ const Two = () => {
 
   // Portfolio data for Carousel (the logos)
   const logos = [
-    { id: 1, image: "/evc-logo-white.png", name: "EVC" },
+    { id: 1, image: "/lankaseafood.png", name: "Lanka Seafood" },
     { id: 2, image: "/apple-center-logo-white.png", name: "Apple Center" },
-    { id: 3, image: "/lankaseafood.png", name: "Lanka Seafood" },
+    { id: 3, image: "/evc-logo-white.png", name: "EVC" },
     { id: 4, image: "/dgt.png", name: "DGT" },
   ];
 
