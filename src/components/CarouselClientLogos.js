@@ -67,7 +67,7 @@ const CarouselClientLogos = ({ logosData = [] }) => {
                 <img
                   src={logo.image}
                   alt={logo.name}
-                  className="max-h-full max-w-full object-contain"
+                  className="max-h-[10rem] max-w-full object-contain"
                 />
               </div>
             </div>
