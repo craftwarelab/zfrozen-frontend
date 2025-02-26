@@ -125,13 +125,7 @@ const Two = () => {
             ) : (
               <div className="flex flex-row justify-center items-center gap-4 md:gap-1 sm:gap-16 py-6 overflow-x-auto">
                 <img
-                  src="/evc-logo-white.png"
-                  alt="logo"
-                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
-                  draggable="false"
-                />
-                <img
-                  src="/apple-center-logo-white.png"
+                  src="/itec.png"
                   alt="logo"
                   className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
                   draggable="false"
@@ -143,7 +137,19 @@ const Two = () => {
                   draggable="false"
                 />
                 <img
+                  src="/apple-center-logo-white.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
                   src="/dgt.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
+                  src="/evc-logo-white.png"
                   alt="logo"
                   className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
                   draggable="false"
