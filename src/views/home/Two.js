@@ -16,10 +16,12 @@ const Two = () => {
 
   // Portfolio data for Carousel (the logos)
   const logos = [
-    { id: 1, image: "/lankaseafood.png", name: "Lanka Seafood" },
-    { id: 2, image: "/apple-center-logo-white.png", name: "Apple Center" },
-    { id: 3, image: "/evc-logo-white.png", name: "EVC" },
-    { id: 4, image: "/dgt.png", name: "DGT" },
+    { id: 1, image: "/itec.png", name: "ITEC" },
+    { id: 2, image: "/umbrellaConnect.png", name: "Umbrella Connect" },
+    { id: 3, image: "/lankaseafood.png", name: "Lanka Seafood" },
+    { id: 4, image: "/apple-center-logo-white.png", name: "Apple Center" },
+    { id: 5, image: "/evc-logo-white.png", name: "EVC" },
+    { id: 6, image: "/dgt.png", name: "DGT" },
   ];
 
   return (
@@ -126,6 +128,12 @@ const Two = () => {
               <div className="flex flex-row justify-center items-center gap-4 md:gap-1 sm:gap-16 py-6 overflow-x-auto">
                 <img
                   src="/itec.png"
+                  alt="logo"
+                  className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
+                  draggable="false"
+                />
+                <img
+                  src="/umbrellaConnect.png"
                   alt="logo"
                   className="h-[6rem] sm:h-[8rem] md:h-[7rem] lg:h-[12rem] select-none"
                   draggable="false"
