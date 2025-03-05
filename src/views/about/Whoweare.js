@@ -67,7 +67,7 @@ const Whoweare = () => {
                     alt="test"
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
-                  <p className="font-[700] text-[16px] sm:text-[20px]">35+</p>
+                  <p className="font-[700] text-[16px] sm:text-[20px]">40+</p>
                   <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Completed Projects
                   </p>
@@ -80,7 +80,7 @@ const Whoweare = () => {
                     alt="test"
                     className="h-[2rem] sm:h-[4rem] lg:h-[3rem]"
                   />
-                  <p className="font-[700] text-[16px] sm:text-[20px]">30+</p>
+                  <p className="font-[700] text-[16px] sm:text-[20px]">35+</p>
                   <p className="text-[10px] sm:text-[12px] font-[600] text-center">
                     Happy Customers
                   </p>
@@ -162,7 +162,7 @@ const Whoweare = () => {
                 </span>
                 <p className="text-right mt-2">
                   &rdquo;At Zfrozen, we are dedicated to delivering innovative and comprehensive IT solutions that empower businesses and individuals to overcome challenges and achieve their goals.
-                  From web and app development to IoT, AI, ML projects, 3D printing, CNC milling and engraving, and smart agriculture solutions, we specialize in creating tailored, technology-driven solutions that address diverse needs across industries.
+                  From web and app development to IoT, AI, Mobile App, Web, UI/UX, 3D Printing, Graphic Design, Electric & Solar, we specialize in creating tailored, technology-driven solutions that address diverse needs across industries.
                   Our expertise extends to IT infrastructure design, custom software solutions, data analytics, automation, and advanced technology integration, ensuring our clients remain competitive in an ever-evolving digital landscape.
                   Our mission is to transform ideas into impactful realities, prioritizing creativity, collaboration, and integrity to deliver solutions that make a lasting difference. Together, let’s build the future of IT innovation.&rdquo;
                 </p>

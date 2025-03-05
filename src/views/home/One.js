@@ -43,7 +43,7 @@ const One = () => {
                 draggable="false"
               />
               <p className="max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[10px] md:text-[15px] lg:text-[20px]">
-                We build great Tech! IoT, AI, Mobile App, Web, UI/UX, 3D Printing & Solar.
+                We build great Tech! IoT, AI, Mobile App, Web, UI/UX, 3D Printing, Graphic Design, Electric & Solar.
               </p>
             </div>
             <div className="p-4"></div>
@@ -76,7 +76,7 @@ const One = () => {
                     </svg>
                   ))}
               </span>
-              <h2 className="text-[#171717] font-[700] text-[18px] md:text-[32px] lg:text-[42px]">2 Years</h2>
+              <h2 className="text-[#171717] font-[700] text-[18px] md:text-[32px] lg:text-[42px]">2+ Years</h2>
               <p className="text-[#171717] font-[400] text-[14px] md:text-[22px] lg:text-[30px]">Experience</p>
             </div>
             <div className="p-4"></div>
@@ -117,7 +117,7 @@ const One = () => {
                   </svg>
                 ))}
             </span>
-            <h2 className="text-[#171717] font-[700] text-[18px] md:text-[20px] lg:text-[24px]">2 Years</h2>
+            <h2 className="text-[#171717] font-[700] text-[18px] md:text-[20px] lg:text-[24px]">2+ Years</h2>
             <p className="text-[#171717] font-[400] text-[14px] md:text-[18px] lg:text-[20px]">Experience</p>
           </div>
 
