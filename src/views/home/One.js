@@ -43,7 +43,7 @@ const One = () => {
                 draggable="false"
               />
               <p className="max-w-[10rem] lg:max-w-52 text-[#171717] font-[400] text-[10px] md:text-[15px] lg:text-[20px]">
-                We build great Tech! IoT, AI, Mobile App, Web, UI/UX, 3D Printing, Electric & Solar.
+                We build great Tech! IoT, AI, Mobile App, Web, UI/UX, 3D Printing, Graphic Design, Electric & Solar.
               </p>
             </div>
             <div className="p-4"></div>

@@ -162,7 +162,7 @@ const Whoweare = () => {
                 </span>
                 <p className="text-right mt-2">
                   &rdquo;At Zfrozen, we are dedicated to delivering innovative and comprehensive IT solutions that empower businesses and individuals to overcome challenges and achieve their goals.
-                  From web and app development to IoT, AI, Mobile App, Web, 3D modelling,  3D printing, Graphic Design, Zfrozen Electric and Zfrozen Solar, we specialize in creating tailored, technology-driven solutions that address diverse needs across industries.
+                  From web and app development to IoT, AI, Mobile App, Web, UI/UX, 3D Printing, Graphic Design, Electric & Solar, we specialize in creating tailored, technology-driven solutions that address diverse needs across industries.
                   Our expertise extends to IT infrastructure design, custom software solutions, data analytics, automation, and advanced technology integration, ensuring our clients remain competitive in an ever-evolving digital landscape.
                   Our mission is to transform ideas into impactful realities, prioritizing creativity, collaboration, and integrity to deliver solutions that make a lasting difference. Together, let’s build the future of IT innovation.&rdquo;
                 </p>
