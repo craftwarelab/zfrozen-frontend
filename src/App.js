@@ -8,6 +8,7 @@ import Contact from "./views/contact/Contact";
 import Services from "./views/services/Services";
 import Career from "./views/career/Career";
 import Portfolio from "./views/portfolio/Portfolio";
+import JobDetail from "./views/career/JobDetail";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/career" element={<Career />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route> 
+        <Route path="/job-detail" element={<JobDetail />}></Route>
       </Routes>
 
       <Footer />
