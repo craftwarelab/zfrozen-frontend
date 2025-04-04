@@ -133,8 +133,8 @@ const Contact = () => {
                 />
                 <div>
                   <h3 className="text-lg font-bold">Send Email</h3>
-                  <a href="mailto:zfrozen.dev@gmail.com" className="text-gray-600">
-                    zfrozen.dev@gmail.com
+                  <a href="mailto:contact@zfrozen.com" className="text-gray-600">
+                    contact@zfrozen.com
                   </a>
                 </div>
               </div>
