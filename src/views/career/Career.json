@@ -1,38 +1,40 @@
 [
     {
         "id": "1",
-        "name": "IoT Developer Intern",
-        "description": "Intern | Hybrid | Kelaniya",
-        "icon": "https://your-website.com/path-to-icon-webdev.svg",
-        "image": "IoT-Post-2.png",
-        "roleOverview": "We are looking for IoT Developers Intern to join our team!",
+        "name": "Embedded AI Developer Intern",
+        "description": "Intern | Remote",
+        "icon": "https://your-website.com/path-to-icon-ai.svg",
+        "image": "IOTAI.png",
+        "roleOverview": "We are looking for Embedded AI Developer Interns to join our team!",
         "keyResponsibilities": [
-            "🔧 Assist in the development, testing, and deployment of IoT solutions",
-            "🔧 Work with microcontrollers, sensors, and communication protocols",
-            "🔧 Troubleshoot and debug IoT hardware and software issues",
-            "🔧 Collaborate with the team to develop innovative IoT applications",
-            "🔧 Assist in mobile (Android/Flutter) & web dashboard development for IoT data visualization and monitoring"
+            "🤖 Assist in developing, testing, and deploying embedded AI solutions",
+            "🤖 Work with microcontrollers and embedded hardware (e.g., Raspberry Pi, NVIDIA Jetson, ESP32)",
+            "🤖 Integrate AI models (e.g., TensorFlow Lite, ONNX) into edge devices",
+            "🤖 Collaborate on real-time AI applications such as image processing, voice recognition, or sensor data analysis",
+            "🤖 Support system optimization for memory, speed, and power consumption",
+            "🤖 Work with IoT platforms, communication protocols, and device-cloud integration",
+            "🤖 Assist in developing mobile (Android/Flutter) or web dashboards for monitoring AI-powered systems"
         ],
         "qualifications": [
-            "✅ Currently enrolled Degree in Electronics, Computer Science, or IT related field",
-            "✅ Basic knowledge of electronics",
-            "✅ Basic knowledge of IoT devices, microcontrollers (ESP8266, ESP32, Arduino, Raspberry Pi), and sensors",
-            "✅ Familiarity with programming languages such as Python, C, or C++",
-            "✅ Understanding of communication protocols (MQTT, HTTP, Wi-Fi, Bluetooth)",
-            "✅ Experience working with Firebase",
-            "✅ Familiarity with mobile (Android/Flutter) & web dashboard development for IoT systems",
-            "✅ Added advantage: Experience with Flask and AI Integration with IoT",
-            "✅ Strong problem-solving skills and eagerness to learn",
-            "✅ Ability to work independently and as part of a team"
+            "✅ Currently pursuing a Degree in Electronics, Computer Engineering, AI, or a related IT field",
+            "✅ Basic to intermediate knowledge of embedded systems and microcontrollers (Raspberry Pi, ESP32, Arduino)",
+            "✅ Familiarity with AI/ML libraries such as TensorFlow, PyTorch, or OpenCV",
+            "✅ Experience deploying models using TensorFlow Lite or similar on edge devices",
+            "✅ Proficiency in Python and/or C/C++ for embedded development",
+            "✅ Understanding of serial, I2C, SPI, and wireless protocols (MQTT, Bluetooth, Wi-Fi, LoRa)",
+            "✅ Familiarity with real-time data processing, edge computing, and sensor integration",
+            "✅ Experience with Flask, Firebase, or web/mobile integration is a plus",
+            "✅ Creative problem-solving mindset and eagerness to learn new technologies",
+            "✅ Ability to work both independently and collaboratively"
         ],
         "whyJoinUs": [
-            "🌟 Gain real-world IoT development experience",
-            "🌟 Be part of a fast-growing technology-driven company",
-            "🌟 Work on innovative and impactful projects",
-            "🌟 Opportunity for professional growth and development"
+            "🌟 Work hands-on with cutting-edge AI and embedded technologies",
+            "🌟 Be part of a visionary team solving real-world problems",
+            "🌟 Gain cross-domain experience in AI, IoT, and edge computing",
+            "🌟 Grow in a dynamic and supportive tech-driven environment"
         ],
         "apply": [
-            "Send your CV, university-issued Internship Placement Request Letter, and any IoT-related project details or certifications."
+            "Send your CV, university-issued Internship Placement Request Letter, and any AI/Embedded-related project details or certifications."
         ]
     }
 ]
