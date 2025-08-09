@@ -69,7 +69,7 @@ const Career = () => {
                                     <img src={career.image} alt="career" className="rounded-xl max-h-[300px] object-cover" />
                                     <button
                                         onClick={() => navigate("/job-detail", { state: { selectedJob: career } })}
-                                        className="text-[#000000] w-full font-[500] px-8 py-2 rounded-[8px] bg-[#FFD700] cursor-pointer hover:bg-[#000000] hover:text-white"
+                                        className="text-[#000000] mt-4 w-full font-[500] px-8 py-2 rounded-[8px] bg-[#FFD700] cursor-pointer hover:bg-[#000000] hover:text-white"
                                     >
                                         Apply
                                     </button>

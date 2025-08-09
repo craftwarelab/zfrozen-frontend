@@ -1,40 +1,39 @@
 [
     {
         "id": "1",
-        "name": "Embedded AI Developer Intern",
-        "description": "Intern | Remote",
+        "name": "3D Product Designer",
+        "description": "Contract | Remote",
         "icon": "https://your-website.com/path-to-icon-ai.svg",
-        "image": "IOTAI.png",
-        "roleOverview": "We are looking for Embedded AI Developer Interns to join our team!",
+        "image": "3D_Product_Designer.png",
+        "roleOverview": "We are looking for a creative 3D Product Designer to join our team!",
         "keyResponsibilities": [
-            "🤖 Assist in developing, testing, and deploying embedded AI solutions",
-            "🤖 Work with microcontrollers and embedded hardware (e.g., Raspberry Pi, NVIDIA Jetson, ESP32)",
-            "🤖 Integrate AI models (e.g., TensorFlow Lite, ONNX) into edge devices",
-            "🤖 Collaborate on real-time AI applications such as image processing, voice recognition, or sensor data analysis",
-            "🤖 Support system optimization for memory, speed, and power consumption",
-            "🤖 Work with IoT platforms, communication protocols, and device-cloud integration",
-            "🤖 Assist in developing mobile (Android/Flutter) or web dashboards for monitoring AI-powered systems"
+            "📌 Design high-quality 3D models for consumer products, enclosures, and mechanical parts",
+            "📌 Prepare 3D printable files (STL, STEP, OBJ) optimized for FDM/SLA printing",
+            "📌 Collaborate with hardware and electronics teams to ensure fit and function",
+            "📌 Create visual mockups, product renders, and working prototypes",
+            "📌 Assist in product iterations based on testing and client feedback",
+            "📌 Ensure models meet manufacturing constraints and 3D printer tolerances",
+            "📌 Maintain organized versioning of designs and project documentation"
         ],
         "qualifications": [
-            "✅ Currently pursuing a Degree in Electronics, Computer Engineering, AI, or a related IT field",
-            "✅ Basic to intermediate knowledge of embedded systems and microcontrollers (Raspberry Pi, ESP32, Arduino)",
-            "✅ Familiarity with AI/ML libraries such as TensorFlow, PyTorch, or OpenCV",
-            "✅ Experience deploying models using TensorFlow Lite or similar on edge devices",
-            "✅ Proficiency in Python and/or C/C++ for embedded development",
-            "✅ Understanding of serial, I2C, SPI, and wireless protocols (MQTT, Bluetooth, Wi-Fi, LoRa)",
-            "✅ Familiarity with real-time data processing, edge computing, and sensor integration",
-            "✅ Experience with Flask, Firebase, or web/mobile integration is a plus",
-            "✅ Creative problem-solving mindset and eagerness to learn new technologies",
-            "✅ Ability to work both independently and collaboratively"
+            "✅ Proven experience with Fusion 360, SolidWorks, or Blender",
+            "✅ Strong understanding of 3D printing design principles",
+            "✅ Ability to design functional parts, enclosures, and assemblies",
+            "✅ Familiarity with FDM/SLA printing and slicing software (e.g., Cura, Bambu Studio)",
+            "✅ Proficiency in creating dimensionally accurate and optimized models",
+            "✅ Experience in rendering and visualization is a plus",
+            "✅ Bonus: Knowledge of electronics and integration with PCBs, microcontrollers, sensors etc.",
+            "✅ Creativity, attention to detail, and the ability to iterate quickly"
         ],
         "whyJoinUs": [
-            "🌟 Work hands-on with cutting-edge AI and embedded technologies",
-            "🌟 Be part of a visionary team solving real-world problems",
-            "🌟 Gain cross-domain experience in AI, IoT, and edge computing",
-            "🌟 Grow in a dynamic and supportive tech-driven environment"
+            "🌟 Work on real-world product development projects",
+            "🌟 Get hands-on with 3D printers, prototyping tools, and production workflows",
+            "🌟 Collaborate with cross-functional teams including AI, IoT developers",
+            "🌟 Enhance your skills in a supportive and innovation-driven environment",
+            "🌟 See your designs come to life from concept to physical product"
         ],
         "apply": [
-            "Send your CV, university-issued Internship Placement Request Letter, and any AI/Embedded-related project details or certifications."
+            "Send your CV and Portfolio (3D models, renders, or STL samples) project details or certifications."
         ]
     }
 ]
