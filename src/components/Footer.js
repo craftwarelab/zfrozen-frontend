@@ -81,6 +81,9 @@ const Footer = () => {
                     Zfrozen Solar
                   </a>
                   <a className="hover:opacity-75" href="/services">
+                    Zfrozen Electric
+                  </a>
+                  <a className="hover:opacity-75" href="/services">
                     IoT
                   </a>
                   <a className="hover:opacity-75" href="/services">
