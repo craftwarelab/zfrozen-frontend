@@ -52,5 +52,11 @@
       "name": "Zfrozen Solar",
       "description": "Power your future with our expert solar solutions. From design and installation to maintenance, we provide comprehensive solar energy systems tailored for residential and commercial needs.",
       "image": "/SolarService.png"
+  },
+  {
+      "id": "10",
+      "name": "Zfrozen Electric",
+      "description": "Ensure safety, connectivity, and reliable power with our complete electrical, CCTV, and networking solutions. From professional wiring and structured cabling to advanced surveillance systems and secure networks, we deliver tailored installations and maintenance services for homes, offices, and industries.",
+      "image": "/ele1.jpeg"
   }
 ]
