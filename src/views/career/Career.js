@@ -22,7 +22,8 @@ const Career = () => {
 
     useEffect(() => {
         fetchTechnologies().then((data) => {
-            setData(data);
+            const filteredData = data.filter((job) => job.id !== "1"); // hide id = 1
+            setData(filteredData);
             setLoading(false);
         });
     }, []);
