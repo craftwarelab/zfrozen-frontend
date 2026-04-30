@@ -10,6 +10,8 @@ import Career from "./views/career/Career";
 import Portfolio from "./views/portfolio/Portfolio";
 import JobDetail from "./views/career/JobDetail";
 
+
+
 function App() {
   return (
     <BrowserRouter>
